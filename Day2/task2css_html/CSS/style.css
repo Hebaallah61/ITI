@@ -1,0 +1,24 @@
+body{
+    background-color:pink;
+
+}
+
+fieldset{
+    width: 500px ;
+    
+}
+
+form{
+    display: inline-block;
+}
+
+.a{
+ width: 60px;
+}
+
+.Form{
+    background-color:pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

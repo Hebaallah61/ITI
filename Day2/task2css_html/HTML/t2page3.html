@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="../CSS/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    
+   
+    <form action="../HTML/page3.html" class="Form">
+        <fieldset width="500px" >
+            <legend>Log In</legend>
+            <label>User Name:</label>
+            <input type="text" name="name" />
+            <br>
+            <label>Password:</label>
+            <input type="password" name="pass" />
+            <br>
+            <label>Select your location:</label>
+            <select name="choise">
+                <optgroup label="Africa"> 
+                    <option>Egypt</option>
+                    <option>Sudan</option>
+                    <option>Namibia</option>
+                </optgroup>
+                <optgroup label="Europ">
+                    <option>France</option>
+                    <option>Russia</option>
+                    <option>UK</option>
+                </optgroup>
+                <optgroup label="North America" disabled>
+                    <option>Canada</option>
+                    <option>Mexico</option>
+                    <option>USA</option>
+                </optgroup>
+            </select>
+            <br>
+            <input accesskey="m" id="me" type="checkbox" name="key">
+            <label>Remember <u>M</u>e</label>
+            <br>
+            <input type="submit" name="login" value="log in">
+            <br>
+        </fieldset>
+    </form>
+
+</body>
+</html>
