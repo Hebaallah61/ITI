@@ -1,0 +1,5 @@
+Assignments:
+      1) Input and output an array using 2 for loops.
+      2) Get Minimum and Maximum value of an array.
+      3) Calculate sum of each row in a 2D Array.
+      4) Bonus: Calculate average of each column in a 2D Array.
