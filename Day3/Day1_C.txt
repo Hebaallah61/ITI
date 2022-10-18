@@ -1,3 +1,4 @@
--Print Hello World
--User input number and the program return the hexa number and the char that represent the number
--Take from user char and return the ASCCI code 
+Assignments:
+  -Print Hello World
+  -User input number and the program return the hexa number and the char that represent the number
+  -Take from user char and return the ASCCI code 
