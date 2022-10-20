@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1666181069 source:e:\cs problem solving\concatenate_string\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

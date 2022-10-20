@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1666183962 source:e:\cs problem solving\char_c\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
