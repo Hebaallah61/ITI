@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1666297327 source:e:\cs problem solving\employee_functions_menu_3\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<string.h>
+
