@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1666816680 source:e:\cs problem solving\final_line_screen_constrain\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<windows.h>
+
