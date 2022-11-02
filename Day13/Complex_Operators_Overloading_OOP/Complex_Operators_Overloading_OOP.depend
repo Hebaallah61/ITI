@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1667302049 source:e:\cs problem solving\complex_operators_overloading_oop\main.cpp
+	<iostream>
+	<conio.h>
+	<string>
+	<cstring>
+	<bits/stdc++.h>
+	<strstream>
+
