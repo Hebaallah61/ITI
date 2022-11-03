@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1667394038 source:e:\cs problem solving\light_composition_v02_oop\main.cpp
+	<iostream>
+	"E:\heba\CodeBlocks\MinGW\include\graphics.h"
+	<dos.h>
+	<conio.h>
+
+1667316785 e:\heba\codeblocks\mingw\include\graphics.h
+	<iostream>
+	<math.h>
+	<windows.h>
+	<Windows.h>
+
