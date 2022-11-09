@@ -1,0 +1,293 @@
+#include <iostream>
+#include "E:\heba\CodeBlocks\MinGW\include\graphics.h"
+#include <dos.h>
+#include <conio.h>
+using namespace std;
+
+
+
+class point{
+    int x,y;
+public:
+    point(){
+     x=y=0;
+    }
+    point(int _x,int _y){
+
+        x=_x;
+        y=_y;
+    }
+    ~point(){
+        //cout<<"point destructor\n";
+    }
+
+    int getx(){return x;}
+    int gety(){return y;}
+
+    void setx(int _x){x=_x;}
+    void sety(int _y){y=_y;}
+
+    void show(){
+        cout<<"("<<x<<","<<y<<")\n";
+    }
+
+};
+
+///class shape color
+class Shape_color{
+protected:
+    int color;
+public:
+    Shape_color(int c){
+        color=c;
+    }
+    void stcolor(int c){
+    color=c;
+    }
+
+    int getcolor(){
+    return color;
+    }
+
+};
+
+
+class Rect:public Shape_color{///inheritance
+
+    point ul;
+    point lr;
+    int num;
+public:
+
+    Rect(int n):Shape_color(0){
+         num=n;
+         //cout << "Rect Parameterless Ctor \n";
+     }
+    Rect(int x1,int y1,int x2,int y2,int c)///
+        :ul(x1,y1),lr(x2,y2)
+        ,Shape_color(c)
+    {
+        //color=c;
+    }
+
+    ~Rect(){//cout<<"rec destructor\n";
+    }
+    void draw(){
+        rectangle(ul.getx(),ul.gety(),lr.getx(),lr.gety());
+    }
+
+
+};
+
+
+class Line :public Shape_color{
+    point start;
+    point ends;
+    int num;
+public:
+    Line(int n):Shape_color(0){
+         num=n;
+         //cout << "Rect Parameterless Ctor \n";
+     }
+    Line(int x1,int y1,int x2,int y2,int c)
+        :start(x1,y1),ends(x2,y2)
+        ,Shape_color(c)
+    {
+        //color=c;
+    }
+
+    ~Line(){//cout<<"Line destructor\n";
+    }
+
+     void draw(){
+        line(start.getx(),start.gety(),ends.getx(),ends.gety());
+    }
+};
+
+
+class Triangle :public Shape_color{
+
+    point a;
+    point b;
+    point c;
+    int num;
+public:
+    Triangle(int n):Shape_color(0){
+         num=n;
+         //cout << "Rect Parameterless Ctor \n";
+     }
+    Triangle(int x1,int y1,int x2,int y2,int x3,int y3,int c)
+        :a(x1,y1),b(x2,y2),c(x3,y3)
+        ,Shape_color(c)
+    {
+        //color=c;
+    }
+
+    ~Triangle(){//cout<<"Triangle destructor\n";
+    }
+
+     void draw(){
+        line(a.getx(),a.gety(),b.getx(),b.gety());
+        line(b.getx(),b.gety(),c.getx(),c.gety());
+        line(c.getx(),c.gety(),a.getx(),a.gety());
+    }
+
+
+
+
+};
+
+
+class Circle :public Shape_color{
+point a;
+int radius;
+int num;
+
+public:
+
+    Circle(int n):Shape_color(0){
+         num=n;
+         //cout << "Rect Parameterless Ctor \n";
+     }
+    Circle(int x1,int y1,int r,int c)
+        :a(x1,y1),Shape_color(c)
+    {
+        //color=c;
+        radius=r;
+
+    }
+
+    ~Circle(){//cout<<"Line destructor\n";
+    }
+
+     void draw(){
+        circle(a.getx(),a.gety(),radius);
+    }
+
+
+
+
+
+};
+
+
+///class picture without virtual ------------------------------
+class Pic
+{
+    Rect* pRect;
+    Line* pLine;
+    Triangle* pTriang;
+    Circle* pCirc;
+    int RNum,TNum,LNum,CNum;
+public:
+    Pic(){
+        RNum = 0 ; pRect = NULL;
+        TNum = 0 ; pTriang = NULL;
+        CNum = 0 ; pCirc = NULL;
+        LNum = 0 ; pLine = NULL;
+
+        //cout<<"Pic Ctor01 \n";
+    }
+    Pic ( Rect* rArr , int R,Line* lArr,int l,Triangle* tArr,int t,Circle* cArr,int c){
+        pRect = rArr;
+        RNum = R;
+        pLine=lArr;
+        LNum=l;
+        pTriang=tArr;
+        TNum=t;
+        pCirc=cArr;
+        CNum=c;
+        //cout<<"Pic Ctor02 \n";
+    }
+    ~Pic() {//cout <<"Pic Destructor \n";
+    }
+    void SetRect ( Rect* rArr , int R){
+        pRect = rArr;
+        RNum = R;
+    }
+
+    void SetLine ( Line* lArr , int l){
+        pLine = lArr;
+        LNum = l;
+    }
+
+    void SetTriang ( Triangle* tArr , int t){
+        pTriang = tArr;
+        TNum = t;
+    }
+
+    void SetCirc ( Circle* cArr , int c){
+        pCirc = cArr;
+        CNum = c;
+    }
+
+
+    void Paint()
+    {
+        for ( int i=0 ; i < RNum; i++)
+            pRect[i].draw();
+        for ( int i=0 ; i < TNum; i++)
+            pTriang[i].draw();
+        for ( int i=0 ; i < LNum; i++)
+            pLine[i].draw();
+        for ( int i=0 ; i < CNum; i++)
+            pCirc[i].draw();
+    }
+
+
+
+};
+
+
+
+int main()
+{
+
+    initgraph();
+
+
+
+
+   /* Rect Arr1[1] = {Rect ( 574 , 87 , 1088 , 468 ,2)};
+    Circle cArr[1] = {Circle(840,280,200,1)};
+    Triangle tArr[1] = {Triangle(585,88,1088,88,842,204,3)};
+    setcolor(11);
+*/
+    Pic P;
+    Rect *rArr ;
+    Line *lArr ;
+    Triangle *tArr ;
+    Circle *cArr ;
+
+    rArr = new Rect(1);
+    rArr[0] = Rect(574 , 87 , 1088 , 468 ,1);
+    cArr = new Circle(1);
+    cArr[0] = Circle(840,280,200,3);
+    tArr = new Triangle(1);
+    tArr[0] = Triangle(585,88,1088,88,842,204,2);
+
+
+
+    P.SetRect(rArr , 1);
+    P.SetTriang(tArr , 1);
+    P.SetCirc(cArr , 1);
+    setcolor(11);
+    P.Paint();
+
+
+    P.SetRect(NULL , 0);
+    P.SetTriang(NULL , 0);
+    P.SetCirc(NULL , 0);
+
+
+    delete []rArr;
+    delete []tArr;
+    delete []cArr;
+
+
+
+
+
+
+    return 0;
+}
