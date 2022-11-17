@@ -1,4 +1,4 @@
-                          /*Day 2 DB*/
+                          /*Day 3 DB*/
 
 use Company_SD
 

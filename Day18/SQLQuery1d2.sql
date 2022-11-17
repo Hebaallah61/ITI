@@ -1,5 +1,5 @@
 
-                                /*Day 3 DB*/
+                                /*Day 2 DB*/
 
 use Company_SD
 /*1.Display all the employees Data.*/
