@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1669064753 source:e:\cs problem solving\double_linked_list_s1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<string.h>
+

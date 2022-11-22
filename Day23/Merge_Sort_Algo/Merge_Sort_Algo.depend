@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1669121216 source:e:\cs problem solving\merge_sort_algo\main.c
+	<stdio.h>
+	<stdlib.h>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1669112471 source:e:\cs problem solving\selection_sort_algo\main.c
+	<stdio.h>
+	<stdlib.h>
+

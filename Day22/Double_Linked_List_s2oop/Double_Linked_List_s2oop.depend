@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1669066062 source:e:\cs problem solving\double_linked_list_s2oop\main.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<string.h>
+	<conio.h>
+
