@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <table class="calculator">
+        <tr>
+            <td colspan="3"> <input class="display-box" type="text" id="result" disabled /> </td>
+
+
+            <td> <input type="button" value="C" onclick="clearScreen()" id="btn" /> </td>
+        </tr>
+        <tr>
+
+            <td> <input type="button" value="1" onclick="display(this.value)" /> </td>
+            <td> <input type="button" value="2" onclick="display(this.value)" /> </td>
+            <td> <input type="button" value="3" onclick="display(this.value)" /> </td>
+            <td> <input type="button" value="/" onclick="operator(this.value)" /> </td>
+        </tr>
+        <tr>
+            <td> <input type="button" value="4" onclick="display(this.value)" /> </td>
+            <td> <input type="button" value="5" onclick="display(this.value)" /> </td>
+            <td> <input type="button" value="6" onclick="display(this.value)" /> </td>
+            <td> <input type="button" value="-" onclick="operator(this.value)" /> </td>
+        </tr>
+        <tr>
+            <td> <input type="button" value="7" onclick="display(this.value)" /> </td>
+            <td> <input type="button" value="8" onclick="display(this.value)" /> </td>
+            <td> <input type="button" value="9" onclick="display(this.value)" /> </td>
+            <td> <input type="button" value="+" onclick="operator(this.value)" /> </td>
+        </tr>
+        <tr>
+            <td> <input type="button" value="." onclick="display(this.value)" /> </td>
+            <td> <input type="button" value="0" onclick="display(this.value)" /> </td>
+
+
+            <td> <input type="button" value="=" onclick="calculate()" id="btn" /> </td>
+            <td> <input type="button" value="*" onclick="operator(this.value)" /> </td>
+        </tr>
+    </table>
+
+    <script type="text/javascript" src="JSsheet.js"></script>
+
+</body>
+
+</html>
