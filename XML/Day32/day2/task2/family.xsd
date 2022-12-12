@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<!-- 1-->
+<xs:element name="family" type="info">
+	
+</xs:element>
+
+<!-- 2-->
+<xs:complexType name="info" mixed="true" >
+    <xs:sequence >
+        <xs:element name="grandfather"  type="infof"/>
+    </xs:sequence>
+    <xs:attribute name="name" type="xs:string"/>
+</xs:complexType> 
+
+<!-- 3-->
+
+<xs:complexType name="infof" mixed="true">
+    <xs:sequence>
+        <xs:element name="father" type="fatherinfo"/>
+        <xs:element name="uncle"  type="xs:string" maxOccurs="unbounded"/>
+        <xs:element ref="aunt"/>
+    </xs:sequence>
+</xs:complexType>
+
+	
+
+<!-- 3-->
+
+<xs:complexType name="fatherinfo" mixed="true">
+    <xs:sequence>
+        <xs:element ref="mother"/>
+        <xs:element ref="daughter"/>
+        <xs:element name="son" type="soninfo"/>
+    </xs:sequence>
+    <xs:attribute name="job" type="xs:string"/>
+</xs:complexType>
+
+<!--4-->
+
+<xs:complexType name="soninfo" mixed="true">
+<xs:attributeGroup ref="soninfoatt"/>
+</xs:complexType> 
+
+<!--5 -->
+
+
+<xs:element name="aunt" >
+	<xs:complexType  >
+		<xs:simpleContent >
+			<xs:extension base="xs:string">
+				<xs:attribute name="sons" type="xs:integer" use="required" fixed="2"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+</xs:element>
+<!-- 6-->
+<xs:attributeGroup name="soninfoatt">
+		<xs:attribute name="sport"  type="xs:string"/>
+		<xs:attribute name="age" type="xs:integer"/>
+</xs:attributeGroup>
+
+<!--7-->
+<xs:element name="daughter" >
+	<xs:complexType  mixed="true">
+		<xs:simpleContent >
+			<xs:extension base="xs:string">
+				<xs:attribute name="age" type="xs:string" use="required"/>
+                <xs:attribute name="job" type="xs:string" use="required"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+</xs:element>	
+<!--8-->
+
+<xs:element name="mother" >
+	<xs:complexType  mixed="true">
+		<xs:simpleContent >
+			<xs:extension base="xs:string">
+				<xs:attribute name="name" type="xs:string" use="required"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+</xs:element>	
+
+
+</xs:schema>

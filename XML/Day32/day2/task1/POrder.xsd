@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+
+<!--1 -->
+<xs:element name="purchaseOrder" type="info">
+
+</xs:element>
+
+<!--2 -->
+<xs:complexType  name="info">
+<xs:sequence>
+    <xs:element  ref="shipTo"/>
+    <xs:element  ref="billTo"/>
+    <xs:element name="comment" type="xs:string"/>
+    <xs:element  ref="items"/>
+</xs:sequence>
+<xs:attribute name="orderDate"  type="xs:string"/>
+</xs:complexType>
+
+<!--3 -->
+
+<xs:element name="shipTo">
+<xs:complexType>
+    <xs:sequence>
+        <xs:element  name="name"  type="xs:string"/>
+        <xs:element  name="street"  type="xs:string"/>
+        <xs:element  name="city"  type="xs:string"/>
+        <xs:element  name="state"  type="xs:string"/>
+        <xs:element  name="zip"  type="xs:integer"/>
+    </xs:sequence>
+    <xs:attribute name="country" type="xs:string"/>
+</xs:complexType>
+
+</xs:element>
+
+
+<!--4 -->
+<xs:element name="billTo">
+
+<xs:complexType>
+    <xs:sequence>
+        <xs:element  name="name"  type="xs:string"/>
+        <xs:element  name="street"  type="xs:string"/>
+        <xs:element  name="city"  type="xs:string"/>
+        <xs:element  name="state"  type="xs:string"/>
+        <xs:element  name="zip"  type="xs:integer"/>
+    </xs:sequence>
+    <xs:attribute name="country" type="xs:string"/>
+</xs:complexType>
+
+</xs:element>
+
+
+<!--5 -->
+<xs:element name="items">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element ref="item" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    </xs:element>
+
+<!--6-->
+<xs:element name="item">
+<xs:complexType>
+    <xs:sequence>
+        <xs:element name="productName" type="xs:string"/>
+        <xs:element name="quantity" type="xs:integer"/>
+        <xs:element name="USPrice" type="xs:decimal"/>
+        <xs:element name="comment" type="xs:string" minOccurs="0" maxOccurs="1"/>
+        <xs:element name="shipDate" type="xs:string" minOccurs="0" maxOccurs="1"/>
+
+    </xs:sequence>
+    <xs:attribute name="partNum" type="xs:string" />
+</xs:complexType>
+
+</xs:element>
+
+</xs:schema> 

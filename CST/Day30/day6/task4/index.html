@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="contain">
+        <div>
+            <img src="./img/icon1.gif" class="icon x" id="f" />
+        </div>
+        <div>
+            <img src="./img/icon2.gif" class="icon x" id="s" />
+        </div>
+        <div>
+            <img src="./img/TOP.JPG" class="icon" id="t" />
+        </div>
+
+    </div>
+
+
+    <div>
+        <button id="start" onclick="move()">Move</button>
+        <button id="reset" onclick="reset()">reset</button>
+    </div>
+
+    <div>
+        <p>
+            &lt;img src="icon1.gif" style="left: <span id="icon1Style">0</span>px"&gt;
+        </p>
+        <p>
+            &lt;img src="icon2.gif" style="left: <span id="icon2Style">0</span>px"&gt;
+        </p>
+
+    </div>
+    <script src="JSsheet.js"></script>
+</body>
+
+</html>

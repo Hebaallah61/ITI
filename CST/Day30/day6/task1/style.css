@@ -1,0 +1,31 @@
+#p,
+table {
+
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#p {
+    border: 2px solid rgb(236, 43, 43);
+    width: fit-content;
+    padding: 2px;
+}
+
+table,
+table td {
+    border: 1px solid rgb(231, 20, 20);
+    border-collapse: collapse;
+}
+
+
+table td {
+    vertical-align: top;
+}
+
+
+
+h4 {
+    margin: 0;
+    margin-bottom: 5px;
+    text-align: center;
+}
