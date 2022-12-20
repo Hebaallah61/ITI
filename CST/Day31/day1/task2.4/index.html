@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="dif">
+      <h2 id="l">Login</h2>
+
+      <label>Enter your Name</label>
+      <input type="text" id="fname" />
+      <br />
+      <label>Enter your Age </label>
+      <input type="number" id="age" />
+      <br />
+      <label><b>Select your Gender</b></label>
+
+      <input type="radio" name="gender" id="female" value="female" />
+      <label><img src="./img/2.jpg" width="100" height="100" /></label>
+      <input type="radio" name="gender" id="male" value="male" />
+      <label><img src="./img/1.jpg" width="100" height="100" /></label>
+
+      <label for="color">Enter your Favorite Color</label>
+      <br />
+      <select name="color" id="color">
+        <option value="green" selected>Green</option>
+        <option value="red">Red</option>
+        <option value="blue">Blue</option>
+      </select>
+      <br /><br />
+      <button id="reg" onclick="regist()">Regist</button>
+    </div>
+
+    <script src="JS_cook.js"></script>
+    <script src="JS_reg.js"></script>
+  </body>
+</html>
