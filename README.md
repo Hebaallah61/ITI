@@ -5,19 +5,19 @@
  ___
 ## **Object Orianted with C++**
  ___
-    * 7Days from day10-day16
+   * 7Days from day10-day16
  ____
 ## **XML** 
  ___
-    * 3Days from day31-day33
+   * 3Days from day31-day33
  ____
 ## **Data Base** 
  ___
-    * 5Days From day17-day21
+   * 5Days From day17-day21
  ____
 ## **Algorithms and Data Structure** 
  ___
-    * 3Days from day22-day24
+   * 3Days from day22-day24
 ____
 ## **CST contains**
 ____
