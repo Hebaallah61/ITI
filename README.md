@@ -5,13 +5,13 @@ Attempt | #1 | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11
 --- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
 Seconds | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
 
-#Courses |#Days |#from |#to 
+##Courses |##Days |##from |##to 
 --- | --- | --- | ---  
-## **Intro to C** |* 7Days | day3 | day9 
+ **Intro to C** |* 7Days | day3 | day9 
 --- | --- | --- | --- 
- ## **Object Orianted with C++** | * 7Days | day10 |day16 
+  **Object Orianted with C++** | * 7Days | day10 |day16 
 --- | --- | --- | ---
-## **XML** |* 3Days | day31 | day33 
+ **XML** |* 3Days | day31 | day33 
 
 | #8 | #9 | #10 | #11
 ## **Intro to C**
