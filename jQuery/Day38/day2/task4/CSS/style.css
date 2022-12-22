@@ -1,0 +1,22 @@
+#bands{
+    margin-right: 50px;
+    width: 150px;
+    height: 25px;
+}
+
+#artist{
+    margin-right: 50px;
+    width: 150px;
+    height: 25px;
+}
+
+#parent{
+    margin: auto;
+    text-align: center;
+    margin-top: 200px;
+    background-color: blanchedalmond;
+}
+
+body{
+    background-color: bisque;
+}

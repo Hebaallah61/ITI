@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <script src="../Libraries/jquery-3.6.3.min.js"></script>
+    <script defer src="../JS/JS1.js"></script>
+  </head>
+  <body>
+    <div id="parent">
+      <button id="b1">About</button>
+      <button id="b2">Gallary</button>
+      <button id="b3">Services</button>
+      <button id="b4">Complain</button>
+    </div>
+    <br />
+    <div id="child1" hidden></div>
+
+    <div id="child2" hidden>
+      <div class="imc" id="n"></div>
+      <div class="imc" id="m"></div>
+      <div class="imc" id="p"></div>
+    </div>
+
+    <div id="child3" hidden>
+      <ul hidden>
+        <li>Item1</li>
+        <li>Item2</li>
+        <li>Item3</li>
+      </ul>
+    </div>
+    <div id="child4" hidden>
+      <br />
+      <label>name</label>
+      <input type="text" name="name" id="name" />
+      <br />
+      <br />
+      <label>email</label>
+      <input type="email" name="email" id="email" />
+      <br />
+      <br />
+      <label>phone</label>
+      <input type="number" name="phone" id="phone" />
+      <br />
+      <br />
+      <label id="lc">complain</label>
+      <br />
+      <input type="text" name="complain" id="comp" />
+      <br />
+
+      <button id="send">send</button>
+    </div>
+
+    <div id="child5" hidden>
+      <br />
+      <p>your complain:<span id="can"></span></p>
+
+      <p>your name:<span id="naan"></span></p>
+
+      <p>your email:<span id="eman"></span></p>
+
+      <p>your phone:<span id="phan"></span></p>
+      <br />
+      <br />
+      <br />
+      <button id="edit">back to edit</button>
+    </div>
+  </body>
+</html>

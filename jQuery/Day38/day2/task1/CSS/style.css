@@ -1,0 +1,22 @@
+img{
+    position: absolute;
+}
+
+#im{
+ width: 1200px;
+ height: 80px;
+ border: 1px solid black;
+ left: 0px;
+}
+
+#pos{
+    margin-top: 200px;
+    width: 380px;
+    text-align: center;
+    border: 1px solid rgba(64, 53, 53, 0.69);
+}
+
+#parent{
+    margin-top: 250px;
+}
+

@@ -1,0 +1,135 @@
+#parent{
+    background-color: rgb(19, 169, 169);
+    width: 450px;
+    height: 60px;
+    text-align: center;
+    margin: auto;
+    border-radius: 20px;
+    
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    margin: 3px;
+    background-color: rgb(130, 204, 206);
+    border-color: rgb(117, 189, 191);
+    color: rgb(36, 74, 53);
+    font-size: medium;
+    border-radius: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 5px 5px rgb(64, 80, 80);
+    
+}
+
+#child1 {
+    
+    width: 450px;
+    height: 300px;
+    margin: auto;
+    border: 5px solid  cadetblue;
+    border-radius: 20px;
+    border-color: cadetblue;
+    text-align: center;
+    color: aliceblue;
+    background-color: rgb(117, 189, 191,0.6);
+    font-size:x-large;
+}
+
+#child2{
+    width: 450px;
+    height: 300px;
+    margin: auto;
+    border: 5px solid  cadetblue;
+    border-radius: 20px;
+    border-color: cadetblue;
+    text-align: center;
+    color: aliceblue;
+    background-color: rgb(117, 189, 191,0.6);
+    font-size:x-large;   
+}
+
+
+#child4{
+    width: 450px;
+    height: 300px;
+    margin: auto;
+    border: 5px solid  cadetblue;
+    border-radius: 20px;
+    border-color: cadetblue;
+    text-align: center;
+    color: aliceblue;
+    background-color: rgb(117, 189, 191,0.6);
+    font-size:large;   
+}
+
+
+#child5{
+    width: 450px;
+    height: 300px;
+    margin: auto;
+    border: 5px solid  cadetblue;
+    border-radius: 20px;
+    border-color: cadetblue;
+    text-align: center;
+    color: aliceblue;
+    background-color: rgb(117, 189, 191,0.6);
+    font-size:large;   
+}
+
+li{
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    margin-left: 50%;
+    margin-top: 0%;
+    border: 5px solid  cadetblue;
+    border-radius: 20px;
+    border-color: cadetblue;
+    color: rgb(43, 47, 43);
+    background-color: rgb(117, 189, 191,0.6);
+    font-size:medium;   
+}
+
+#lc{
+    text-align: center;
+}
+
+span{
+    color: rgb(20, 18, 18);
+    font-size: large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    
+}
+
+#comp{
+    width: 200px;
+    height: 100px;
+}
+
+
+#n ,#p{
+    width: 50px;
+    height: 50px;
+}
+#m{
+    width: 450px;
+    height: 400px;
+    margin: auto;
+    text-align: center;
+    
+}
+
+
+.imc{
+    display: inline;
+}
+
+
+body{
+    
+    background-color: rgb(6, 116, 141,0.6);
+   
+   
+    
+}
