@@ -11,6 +11,7 @@
  **CST [* Java Script]** |*  5Days | day25 | day30 
  **CST [* Advanced Java Script]**  |*  3Days | day34 | day36
  **jQuery** |* 2Days | day37 | day38 
+ **ASQL** |* 5Days | day39 | day43 
 
 
 
