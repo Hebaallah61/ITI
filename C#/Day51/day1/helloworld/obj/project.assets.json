@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\CS problem solving\\c#pd_heba\\first_use\\Day1\\helloworld\\helloworld.csproj",
+      "projectUniqueName": "E:\\ITI_Days\\ITI\\C#\\Day51\\day1\\helloworld\\helloworld.csproj",
       "projectName": "helloworld",
-      "projectPath": "E:\\CS problem solving\\c#pd_heba\\first_use\\Day1\\helloworld\\helloworld.csproj",
+      "projectPath": "E:\\ITI_Days\\ITI\\C#\\Day51\\day1\\helloworld\\helloworld.csproj",
       "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-      "outputPath": "E:\\CS problem solving\\c#pd_heba\\first_use\\Day1\\helloworld\\obj\\",
+      "outputPath": "E:\\ITI_Days\\ITI\\C#\\Day51\\day1\\helloworld\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
