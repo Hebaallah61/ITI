@@ -1,0 +1,12 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 96vh;
+    background-color: #2d5743;
+  }
+  div {
+    border: 1px solid rgb(243, 203, 109);
+    width: 200px;
+    color: aliceblue;
+  }

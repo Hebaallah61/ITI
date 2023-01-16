@@ -1,0 +1,9 @@
+#check{
+    transition: all 2s;
+}
+
+#check:hover{
+opacity: 0;
+animation-name: anim;
+animation-duration: 2s;
+}

@@ -1,0 +1,62 @@
+div{
+    width: 200px;
+    height: 300px;
+    position: relative;
+    border: 2px solid rgb(18, 17, 17);
+}
+
+#a1{
+position: absolute;
+bottom: 230px;
+left: 5px;
+font-size: medium;
+}
+#a2{
+    position: absolute;
+    bottom: 1px;
+    right: 5px;
+    top: 230px;
+    font-size: medium;
+
+}
+
+#heart {
+    position: absolute;
+    width: 100px;
+    height: 90px;
+    left: 50px;
+    top: 100px;
+    transform: rotate(180deg);
+  }
+
+  #heart:before,
+  #heart:after {
+    position: absolute;
+    content: "";
+    left: 50px;
+    top: 0;
+    width: 50px;
+    height: 80px;
+    background: rgb(24, 24, 24);
+    border-radius: 50px 50px 0 0;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+  }
+  #heart:after {
+    left: 0;
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
+  }
+
+  #trapezoid {
+    position: relative;
+    border-bottom: 50px solid rgb(20, 20, 20);
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0px;
+    width: 100px;
+    top: 150px;
+    left: 75px;
+  }
+
+

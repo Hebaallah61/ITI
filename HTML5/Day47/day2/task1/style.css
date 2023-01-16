@@ -1,0 +1,21 @@
+#s1,#s2{
+    color: rgb(247, 7, 7);
+}
+
+input:required {
+    outline: 2px solid red;
+}
+
+input:invalid+span {
+    color: red;
+    display: inline;
+}
+
+input:valid+span{
+    display: none;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}

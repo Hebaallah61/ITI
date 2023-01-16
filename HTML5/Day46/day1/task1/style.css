@@ -1,0 +1,56 @@
+body{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 96vh;
+    flex-wrap: wrap;
+    background-color: #05355c;
+    
+    
+}
+#parent{
+    width:750px;
+    height: 450px;
+    text-align: center;
+    background-color:#4c80aa ;
+    border-radius: 6px;
+}
+
+#timeduration{
+    width:500px;
+}
+
+#speed-bar{
+    width: 70px;
+}
+
+#progressvolum{
+    width: 70px;
+}
+
+#play,#stop,#gofirst,#backf,#gof,#goend,#full,#mute{
+    height: 30px;
+    border-radius: 40%;
+    background-color: #366286;
+    border: 1px solid  rgb(140, 176, 245);
+    font-family:cursive;
+    font-size: medium;
+    color: rgb(249, 245, 245);
+}
+
+label{
+    font-family:cursive;
+   font-size: medium;
+   background-color: #366286;
+    border: 1px solid  rgb(140, 176, 245);
+    border-radius: 40%;
+    padding: 0.5%;
+    color: rgb(249, 245, 245);
+}
+span{
+    color: rgb(251, 248, 248);
+}
+
+
+

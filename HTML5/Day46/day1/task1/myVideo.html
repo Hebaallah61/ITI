@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Untitled Document</title>
+  </head>
+  <link rel="stylesheet" href="./style.css" />
+
+  <body>
+    <div id="parent">
+      <video
+        src="video/frozen.mp4"
+        width="550"
+        height="350"
+        controls
+        poster="image/frozen.jpg"
+        id="video"
+      ></video>
+      <div>
+        <input
+          type="range"
+          min="0"
+          max="110"
+          value="0"
+          list="rangevalue"
+          id="timeduration"
+        />
+        <span><span id="currentdu"></span>:<span id="totaldu"></span></span>
+      </div>
+      <br />
+      <div id="video-controls" class="controls" data-state="hidden">
+        <button id="play">Play</button>
+        <button id="gofirst">&lt;&lt;</button>
+        <button id="backf">&lt;</button>
+        <button id="gof">&gt;</button>
+        <button id="goend">&gt;&gt;</button>
+        <button id="stop">Stop</button>
+        <button id="full">Full screen</button>
+        <input
+          type="range"
+          id="progressvolum"
+          min="0"
+          max="1"
+          step="0.2"
+          value="0"
+        />
+        <button id="mute" data-state="mute">Mute</button>
+
+        <input
+          type="range"
+          id="speed-bar"
+          min="1"
+          max="16"
+          step="2"
+          value="1"
+        />
+        <label>speed</label>
+      </div>
+    </div>
+    <script src="./JS.js"></script>
+  </body>
+</html>
