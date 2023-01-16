@@ -1,0 +1,15 @@
+E:\CS problem solving\c#pd_heba\first_use\Day1\helloworld\bin\Debug\net6.0\helloworld.exe
+E:\CS problem solving\c#pd_heba\first_use\Day1\helloworld\bin\Debug\net6.0\helloworld.deps.json
+E:\CS problem solving\c#pd_heba\first_use\Day1\helloworld\bin\Debug\net6.0\helloworld.runtimeconfig.json
+E:\CS problem solving\c#pd_heba\first_use\Day1\helloworld\bin\Debug\net6.0\helloworld.dll
+E:\CS problem solving\c#pd_heba\first_use\Day1\helloworld\bin\Debug\net6.0\helloworld.pdb
+E:\CS problem solving\c#pd_heba\first_use\Day1\helloworld\obj\Debug\net6.0\helloworld.csproj.AssemblyReference.cache
+E:\CS problem solving\c#pd_heba\first_use\Day1\helloworld\obj\Debug\net6.0\helloworld.GeneratedMSBuildEditorConfig.editorconfig
+E:\CS problem solving\c#pd_heba\first_use\Day1\helloworld\obj\Debug\net6.0\helloworld.AssemblyInfoInputs.cache
+E:\CS problem solving\c#pd_heba\first_use\Day1\helloworld\obj\Debug\net6.0\helloworld.AssemblyInfo.cs
+E:\CS problem solving\c#pd_heba\first_use\Day1\helloworld\obj\Debug\net6.0\helloworld.csproj.CoreCompileInputs.cache
+E:\CS problem solving\c#pd_heba\first_use\Day1\helloworld\obj\Debug\net6.0\helloworld.dll
+E:\CS problem solving\c#pd_heba\first_use\Day1\helloworld\obj\Debug\net6.0\refint\helloworld.dll
+E:\CS problem solving\c#pd_heba\first_use\Day1\helloworld\obj\Debug\net6.0\helloworld.pdb
+E:\CS problem solving\c#pd_heba\first_use\Day1\helloworld\obj\Debug\net6.0\helloworld.genruntimeconfig.cache
+E:\CS problem solving\c#pd_heba\first_use\Day1\helloworld\obj\Debug\net6.0\ref\helloworld.dll
