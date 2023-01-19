@@ -1,0 +1,15 @@
+E:\CS problem solving\c#pd_heba\first_use\testD03\task1_all_in_one_file\bin\Debug\net7.0\task1_all_in_one_file.exe
+E:\CS problem solving\c#pd_heba\first_use\testD03\task1_all_in_one_file\bin\Debug\net7.0\task1_all_in_one_file.deps.json
+E:\CS problem solving\c#pd_heba\first_use\testD03\task1_all_in_one_file\bin\Debug\net7.0\task1_all_in_one_file.runtimeconfig.json
+E:\CS problem solving\c#pd_heba\first_use\testD03\task1_all_in_one_file\bin\Debug\net7.0\task1_all_in_one_file.dll
+E:\CS problem solving\c#pd_heba\first_use\testD03\task1_all_in_one_file\bin\Debug\net7.0\task1_all_in_one_file.pdb
+E:\CS problem solving\c#pd_heba\first_use\testD03\task1_all_in_one_file\obj\Debug\net7.0\task1_all_in_one_file.csproj.AssemblyReference.cache
+E:\CS problem solving\c#pd_heba\first_use\testD03\task1_all_in_one_file\obj\Debug\net7.0\task1_all_in_one_file.GeneratedMSBuildEditorConfig.editorconfig
+E:\CS problem solving\c#pd_heba\first_use\testD03\task1_all_in_one_file\obj\Debug\net7.0\task1_all_in_one_file.AssemblyInfoInputs.cache
+E:\CS problem solving\c#pd_heba\first_use\testD03\task1_all_in_one_file\obj\Debug\net7.0\task1_all_in_one_file.AssemblyInfo.cs
+E:\CS problem solving\c#pd_heba\first_use\testD03\task1_all_in_one_file\obj\Debug\net7.0\task1_all_in_one_file.csproj.CoreCompileInputs.cache
+E:\CS problem solving\c#pd_heba\first_use\testD03\task1_all_in_one_file\obj\Debug\net7.0\task1_all_in_one_file.dll
+E:\CS problem solving\c#pd_heba\first_use\testD03\task1_all_in_one_file\obj\Debug\net7.0\refint\task1_all_in_one_file.dll
+E:\CS problem solving\c#pd_heba\first_use\testD03\task1_all_in_one_file\obj\Debug\net7.0\task1_all_in_one_file.pdb
+E:\CS problem solving\c#pd_heba\first_use\testD03\task1_all_in_one_file\obj\Debug\net7.0\task1_all_in_one_file.genruntimeconfig.cache
+E:\CS problem solving\c#pd_heba\first_use\testD03\task1_all_in_one_file\obj\Debug\net7.0\ref\task1_all_in_one_file.dll
