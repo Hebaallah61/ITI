@@ -13,7 +13,7 @@
  **jQuery** |* 2Days | day37 | day38 
  **ASQL** |* 5Days | day39 | day43 
  **SWE** |* 2Days | day44 | day45 
- **HTML5** |* 2Days | day46 | day47 
+ **HTML5** |* 3Days | day46 | day47 / day55 
  **RWD[bootstrap]** |* 3Days | day48 | day50
 
 
