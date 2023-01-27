@@ -1,0 +1,49 @@
+
+ID: 1 / Marks: 10 / Header: First Question of Choose One / Body: which phase of complier is sentiment analysis / Type: Choose_One / Choices: a.First,b.Second,c.Third,d.None 
+===============================================
+ID: 2 / Marks: 5 / Header: Second Question of Choose One / Body:  From where does syntax analysis take its input? / Type: Choose_One / Choices: a.Lexical analyzer,b.Sentiment analyzer,c.Syntactic analyzer,d.None 
+===============================================
+ID: 3 / Marks: 10 / Header: First Question of Choose All The Correct / Body: A compiler can check....  / Type: Choose_All / Choices: a.Logical error,b.Syntax error,d.Non logical and syntax error 
+===============================================
+ID: 4 / Marks: 5 / Header: Second Question of Choose All The Correct / Body: A monitor is a module that encapsulates / Type: Choose_All / Choices: a.shared data structures,b.procedures that operate on shared data structure,c.synchronization between concurrent procedure invocation 
+===============================================
+ID: 5 / Marks: 10 / Header: First question of T/F / Body: Based on client-server model and Distributed application architecture it is called second platform  / Type: True_False / Chooises: 1-True,2-False 
+===============================================
+ID: 6 / Marks: 5 / Header: Second Question of T/F / Body: A cloud service is a hardware resources that are offered for consumption by a provider / Type: True_False / Chooises: 1-True,2-False 
+===============================================
+ID: 1 / Marks: 10 / Header: First Question of Choose One / Body: which phase of complier is sentiment analysis / Type: Choose_One / Choices: a.First,b.Second,c.Third,d.None 
+===============================================
+ID: 2 / Marks: 5 / Header: Second Question of Choose One / Body:  From where does syntax analysis take its input? / Type: Choose_One / Choices: a.Lexical analyzer,b.Sentiment analyzer,c.Syntactic analyzer,d.None 
+===============================================
+ID: 3 / Marks: 10 / Header: First Question of Choose All The Correct / Body: A compiler can check....  / Type: Choose_All / Choices: a.Logical error,b.Syntax error,d.Non logical and syntax error 
+===============================================
+ID: 4 / Marks: 5 / Header: Second Question of Choose All The Correct / Body: A monitor is a module that encapsulates / Type: Choose_All / Choices: a.shared data structures,b.procedures that operate on shared data structure,c.synchronization between concurrent procedure invocation 
+===============================================
+ID: 5 / Marks: 10 / Header: First question of T/F / Body: Based on client-server model and Distributed application architecture it is called second platform  / Type: True_False / Chooises: 1-True,2-False 
+===============================================
+ID: 6 / Marks: 5 / Header: Second Question of T/F / Body: A cloud service is a hardware resources that are offered for consumption by a provider / Type: True_False / Chooises: 1-True,2-False 
+===============================================
+ID: 1 / Marks: 10 / Header: First Question of Choose One / Body: which phase of complier is sentiment analysis / Type: Choose_One / Choices: a.First,b.Second,c.Third,d.None 
+===============================================
+ID: 2 / Marks: 5 / Header: Second Question of Choose One / Body:  From where does syntax analysis take its input? / Type: Choose_One / Choices: a.Lexical analyzer,b.Sentiment analyzer,c.Syntactic analyzer,d.None 
+===============================================
+ID: 3 / Marks: 10 / Header: First Question of Choose All The Correct / Body: A compiler can check....  / Type: Choose_All / Choices: a.Logical error,b.Syntax error,d.Non logical and syntax error 
+===============================================
+ID: 4 / Marks: 5 / Header: Second Question of Choose All The Correct / Body: A monitor is a module that encapsulates / Type: Choose_All / Choices: a.shared data structures,b.procedures that operate on shared data structure,c.synchronization between concurrent procedure invocation 
+===============================================
+ID: 5 / Marks: 10 / Header: First question of T/F / Body: Based on client-server model and Distributed application architecture it is called second platform  / Type: True_False / Chooises: 1-True,2-False 
+===============================================
+ID: 6 / Marks: 5 / Header: Second Question of T/F / Body: A cloud service is a hardware resources that are offered for consumption by a provider / Type: True_False / Chooises: 1-True,2-False 
+===============================================
+ID: 1 / Marks: 10 / Header: First Question of Choose One / Body: which phase of complier is sentiment analysis / Type: Choose_One / Choices: a.First,b.Second,c.Third,d.None 
+===============================================
+ID: 2 / Marks: 5 / Header: Second Question of Choose One / Body:  From where does syntax analysis take its input? / Type: Choose_One / Choices: a.Lexical analyzer,b.Sentiment analyzer,c.Syntactic analyzer,d.None 
+===============================================
+ID: 3 / Marks: 10 / Header: First Question of Choose All The Correct / Body: A compiler can check....  / Type: Choose_All / Choices: a.Logical error,b.Syntax error,d.Non logical and syntax error 
+===============================================
+ID: 4 / Marks: 5 / Header: Second Question of Choose All The Correct / Body: A monitor is a module that encapsulates / Type: Choose_All / Choices: a.shared data structures,b.procedures that operate on shared data structure,c.synchronization between concurrent procedure invocation 
+===============================================
+ID: 5 / Marks: 10 / Header: First question of T/F / Body: Based on client-server model and Distributed application architecture it is called second platform  / Type: True_False / Chooises: 1-True,2-False 
+===============================================
+ID: 6 / Marks: 5 / Header: Second Question of T/F / Body: A cloud service is a hardware resources that are offered for consumption by a provider / Type: True_False / Chooises: 1-True,2-False 
+===============================================
