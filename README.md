@@ -15,7 +15,9 @@
  **SWE** |* 2Days | day44 | day45 
  **HTML5** |* 3Days | day46 | day47 / day55 
  **RWD[bootstrap]** |* 3Days | day48 | day50
-
+ **C#** |* 11Days | day51 | day61/day
+ **WPF** |* 3Days | day62 | day64
+ **ES_Next** |* 3Days | day65 | day66/
 
 
 
