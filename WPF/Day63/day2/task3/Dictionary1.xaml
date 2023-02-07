@@ -1,0 +1,24 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <LinearGradientBrush x:Key="bg" StartPoint="0,0" EndPoint="0,1">
+        <GradientStop Color="Beige" Offset="0.5"></GradientStop>
+        <GradientStop Color="Bisque" Offset="0.6"></GradientStop>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="bgd" StartPoint="0,0" EndPoint="0,1">
+        <GradientStop Color="Bisque" Offset="0.5"></GradientStop>
+        <GradientStop Color="BurlyWood" Offset="0.6"></GradientStop>
+    </LinearGradientBrush>
+
+    <Style x:Key="btnstyle" TargetType="Button">
+        <Setter Property="FontSize" Value="50">
+            
+        </Setter>
+        
+
+    </Style>
+    <Style TargetType="Border">
+            <Setter Property="CornerRadius" Value="20"></Setter>
+        </Style>
+
+</ResourceDictionary>
