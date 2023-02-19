@@ -17,8 +17,8 @@
  **RWD[bootstrap]** |* 3Days | day48 | day50
  **C#** |* 11Days | day51 | day61/day
  **WPF** |* 3Days | day62 | day64
- **ES_Next** |* 3Days | day65 | day66/
-
+ **ES_Next** |* 3Days | day65 | day67
+ **WF_ADO** |* 3Days | day68 | day70
 
 
  
