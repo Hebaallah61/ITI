@@ -1,0 +1,17 @@
+E:\CS problem solving\c#pd_heba\wpf\D11\task3\bin\Debug\net7.0-windows\task3.exe
+E:\CS problem solving\c#pd_heba\wpf\D11\task3\bin\Debug\net7.0-windows\task3.deps.json
+E:\CS problem solving\c#pd_heba\wpf\D11\task3\bin\Debug\net7.0-windows\task3.runtimeconfig.json
+E:\CS problem solving\c#pd_heba\wpf\D11\task3\bin\Debug\net7.0-windows\task3.dll
+E:\CS problem solving\c#pd_heba\wpf\D11\task3\bin\Debug\net7.0-windows\task3.pdb
+E:\CS problem solving\c#pd_heba\wpf\D11\task3\obj\Debug\net7.0-windows\task3.csproj.AssemblyReference.cache
+E:\CS problem solving\c#pd_heba\wpf\D11\task3\obj\Debug\net7.0-windows\task3.Form1.resources
+E:\CS problem solving\c#pd_heba\wpf\D11\task3\obj\Debug\net7.0-windows\task3.csproj.GenerateResource.cache
+E:\CS problem solving\c#pd_heba\wpf\D11\task3\obj\Debug\net7.0-windows\task3.GeneratedMSBuildEditorConfig.editorconfig
+E:\CS problem solving\c#pd_heba\wpf\D11\task3\obj\Debug\net7.0-windows\task3.AssemblyInfoInputs.cache
+E:\CS problem solving\c#pd_heba\wpf\D11\task3\obj\Debug\net7.0-windows\task3.AssemblyInfo.cs
+E:\CS problem solving\c#pd_heba\wpf\D11\task3\obj\Debug\net7.0-windows\task3.csproj.CoreCompileInputs.cache
+E:\CS problem solving\c#pd_heba\wpf\D11\task3\obj\Debug\net7.0-windows\task3.dll
+E:\CS problem solving\c#pd_heba\wpf\D11\task3\obj\Debug\net7.0-windows\refint\task3.dll
+E:\CS problem solving\c#pd_heba\wpf\D11\task3\obj\Debug\net7.0-windows\task3.pdb
+E:\CS problem solving\c#pd_heba\wpf\D11\task3\obj\Debug\net7.0-windows\task3.genruntimeconfig.cache
+E:\CS problem solving\c#pd_heba\wpf\D11\task3\obj\Debug\net7.0-windows\ref\task3.dll
