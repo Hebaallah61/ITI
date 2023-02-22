@@ -1,0 +1,12 @@
+E:\CS problem solving\c#pd_heba\first_use\D13\DataAcessLayer\bin\Debug\net7.0\DataAcessLayer.deps.json
+E:\CS problem solving\c#pd_heba\first_use\D13\DataAcessLayer\bin\Debug\net7.0\DataAcessLayer.dll
+E:\CS problem solving\c#pd_heba\first_use\D13\DataAcessLayer\bin\Debug\net7.0\DataAcessLayer.pdb
+E:\CS problem solving\c#pd_heba\first_use\D13\DataAcessLayer\obj\Debug\net7.0\DataAcessLayer.csproj.AssemblyReference.cache
+E:\CS problem solving\c#pd_heba\first_use\D13\DataAcessLayer\obj\Debug\net7.0\DataAcessLayer.GeneratedMSBuildEditorConfig.editorconfig
+E:\CS problem solving\c#pd_heba\first_use\D13\DataAcessLayer\obj\Debug\net7.0\DataAcessLayer.AssemblyInfoInputs.cache
+E:\CS problem solving\c#pd_heba\first_use\D13\DataAcessLayer\obj\Debug\net7.0\DataAcessLayer.AssemblyInfo.cs
+E:\CS problem solving\c#pd_heba\first_use\D13\DataAcessLayer\obj\Debug\net7.0\DataAcessLayer.csproj.CoreCompileInputs.cache
+E:\CS problem solving\c#pd_heba\first_use\D13\DataAcessLayer\obj\Debug\net7.0\DataAcessLayer.dll
+E:\CS problem solving\c#pd_heba\first_use\D13\DataAcessLayer\obj\Debug\net7.0\refint\DataAcessLayer.dll
+E:\CS problem solving\c#pd_heba\first_use\D13\DataAcessLayer\obj\Debug\net7.0\DataAcessLayer.pdb
+E:\CS problem solving\c#pd_heba\first_use\D13\DataAcessLayer\obj\Debug\net7.0\ref\DataAcessLayer.dll

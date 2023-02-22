@@ -1,0 +1,15 @@
+E:\CS problem solving\c#pd_heba\first_use\D13\BusinessLogicLayer\bin\Debug\net7.0\BusinessLogicLayer.deps.json
+E:\CS problem solving\c#pd_heba\first_use\D13\BusinessLogicLayer\bin\Debug\net7.0\BusinessLogicLayer.dll
+E:\CS problem solving\c#pd_heba\first_use\D13\BusinessLogicLayer\bin\Debug\net7.0\BusinessLogicLayer.pdb
+E:\CS problem solving\c#pd_heba\first_use\D13\BusinessLogicLayer\bin\Debug\net7.0\DataAcessLayer.dll
+E:\CS problem solving\c#pd_heba\first_use\D13\BusinessLogicLayer\bin\Debug\net7.0\DataAcessLayer.pdb
+E:\CS problem solving\c#pd_heba\first_use\D13\BusinessLogicLayer\obj\Debug\net7.0\BusinessLogicLayer.csproj.AssemblyReference.cache
+E:\CS problem solving\c#pd_heba\first_use\D13\BusinessLogicLayer\obj\Debug\net7.0\BusinessLogicLayer.GeneratedMSBuildEditorConfig.editorconfig
+E:\CS problem solving\c#pd_heba\first_use\D13\BusinessLogicLayer\obj\Debug\net7.0\BusinessLogicLayer.AssemblyInfoInputs.cache
+E:\CS problem solving\c#pd_heba\first_use\D13\BusinessLogicLayer\obj\Debug\net7.0\BusinessLogicLayer.AssemblyInfo.cs
+E:\CS problem solving\c#pd_heba\first_use\D13\BusinessLogicLayer\obj\Debug\net7.0\BusinessLogicLayer.csproj.CoreCompileInputs.cache
+E:\CS problem solving\c#pd_heba\first_use\D13\BusinessLogicLayer\obj\Debug\net7.0\BusinessLogicLayer.csproj.CopyComplete
+E:\CS problem solving\c#pd_heba\first_use\D13\BusinessLogicLayer\obj\Debug\net7.0\BusinessLogicLayer.dll
+E:\CS problem solving\c#pd_heba\first_use\D13\BusinessLogicLayer\obj\Debug\net7.0\refint\BusinessLogicLayer.dll
+E:\CS problem solving\c#pd_heba\first_use\D13\BusinessLogicLayer\obj\Debug\net7.0\BusinessLogicLayer.pdb
+E:\CS problem solving\c#pd_heba\first_use\D13\BusinessLogicLayer\obj\Debug\net7.0\ref\BusinessLogicLayer.dll
