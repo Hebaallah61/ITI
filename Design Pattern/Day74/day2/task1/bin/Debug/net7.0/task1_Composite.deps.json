@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "task1_Composite/1.0.0": {
+        "runtime": {
+          "task1_Composite.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "task1_Composite/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

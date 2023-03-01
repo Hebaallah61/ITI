@@ -1,0 +1,15 @@
+E:\CS problem solving\c#pd_heba\first_use\D16_Design_Pattern\task1\obj\Debug\net7.0\task1_Composite.csproj.AssemblyReference.cache
+E:\CS problem solving\c#pd_heba\first_use\D16_Design_Pattern\task1\obj\Debug\net7.0\task1_Composite.GeneratedMSBuildEditorConfig.editorconfig
+E:\CS problem solving\c#pd_heba\first_use\D16_Design_Pattern\task1\obj\Debug\net7.0\task1_Composite.AssemblyInfoInputs.cache
+E:\CS problem solving\c#pd_heba\first_use\D16_Design_Pattern\task1\obj\Debug\net7.0\task1_Composite.AssemblyInfo.cs
+E:\CS problem solving\c#pd_heba\first_use\D16_Design_Pattern\task1\obj\Debug\net7.0\task1_Composite.csproj.CoreCompileInputs.cache
+E:\CS problem solving\c#pd_heba\first_use\D16_Design_Pattern\task1\bin\Debug\net7.0\task1_Composite.exe
+E:\CS problem solving\c#pd_heba\first_use\D16_Design_Pattern\task1\bin\Debug\net7.0\task1_Composite.deps.json
+E:\CS problem solving\c#pd_heba\first_use\D16_Design_Pattern\task1\bin\Debug\net7.0\task1_Composite.runtimeconfig.json
+E:\CS problem solving\c#pd_heba\first_use\D16_Design_Pattern\task1\bin\Debug\net7.0\task1_Composite.dll
+E:\CS problem solving\c#pd_heba\first_use\D16_Design_Pattern\task1\bin\Debug\net7.0\task1_Composite.pdb
+E:\CS problem solving\c#pd_heba\first_use\D16_Design_Pattern\task1\obj\Debug\net7.0\task1_Composite.dll
+E:\CS problem solving\c#pd_heba\first_use\D16_Design_Pattern\task1\obj\Debug\net7.0\refint\task1_Composite.dll
+E:\CS problem solving\c#pd_heba\first_use\D16_Design_Pattern\task1\obj\Debug\net7.0\task1_Composite.pdb
+E:\CS problem solving\c#pd_heba\first_use\D16_Design_Pattern\task1\obj\Debug\net7.0\task1_Composite.genruntimeconfig.cache
+E:\CS problem solving\c#pd_heba\first_use\D16_Design_Pattern\task1\obj\Debug\net7.0\ref\task1_Composite.dll
