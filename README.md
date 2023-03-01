@@ -19,6 +19,8 @@
  **WPF** |* 3Days | day62 | day64
  **ES_Next** |* 3Days | day65 | day67
  **WF_ADO** |* 3Days | day68 | day70
+ **WF_EF** |* 3Days | day71 | day72/
+ **Design Pattern** |* 2Days | day73 | day74
 
 
  
