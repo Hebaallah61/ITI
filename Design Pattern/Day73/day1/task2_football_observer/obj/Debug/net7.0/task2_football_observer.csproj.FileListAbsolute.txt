@@ -1,0 +1,15 @@
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task2_football_observer\obj\Debug\net7.0\task2_football_observer.csproj.AssemblyReference.cache
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task2_football_observer\obj\Debug\net7.0\task2_football_observer.GeneratedMSBuildEditorConfig.editorconfig
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task2_football_observer\obj\Debug\net7.0\task2_football_observer.AssemblyInfoInputs.cache
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task2_football_observer\obj\Debug\net7.0\task2_football_observer.AssemblyInfo.cs
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task2_football_observer\obj\Debug\net7.0\task2_football_observer.csproj.CoreCompileInputs.cache
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task2_football_observer\bin\Debug\net7.0\task2_football_observer.exe
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task2_football_observer\bin\Debug\net7.0\task2_football_observer.deps.json
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task2_football_observer\bin\Debug\net7.0\task2_football_observer.runtimeconfig.json
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task2_football_observer\bin\Debug\net7.0\task2_football_observer.dll
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task2_football_observer\bin\Debug\net7.0\task2_football_observer.pdb
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task2_football_observer\obj\Debug\net7.0\task2_football_observer.dll
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task2_football_observer\obj\Debug\net7.0\refint\task2_football_observer.dll
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task2_football_observer\obj\Debug\net7.0\task2_football_observer.pdb
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task2_football_observer\obj\Debug\net7.0\task2_football_observer.genruntimeconfig.cache
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task2_football_observer\obj\Debug\net7.0\ref\task2_football_observer.dll

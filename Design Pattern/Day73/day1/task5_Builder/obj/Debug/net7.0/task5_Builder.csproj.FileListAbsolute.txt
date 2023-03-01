@@ -1,0 +1,15 @@
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task5_Builder\bin\Debug\net7.0\task5_Builder.exe
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task5_Builder\bin\Debug\net7.0\task5_Builder.deps.json
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task5_Builder\bin\Debug\net7.0\task5_Builder.runtimeconfig.json
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task5_Builder\bin\Debug\net7.0\task5_Builder.dll
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task5_Builder\bin\Debug\net7.0\task5_Builder.pdb
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task5_Builder\obj\Debug\net7.0\task5_Builder.csproj.AssemblyReference.cache
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task5_Builder\obj\Debug\net7.0\task5_Builder.GeneratedMSBuildEditorConfig.editorconfig
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task5_Builder\obj\Debug\net7.0\task5_Builder.AssemblyInfoInputs.cache
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task5_Builder\obj\Debug\net7.0\task5_Builder.AssemblyInfo.cs
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task5_Builder\obj\Debug\net7.0\task5_Builder.csproj.CoreCompileInputs.cache
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task5_Builder\obj\Debug\net7.0\task5_Builder.dll
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task5_Builder\obj\Debug\net7.0\refint\task5_Builder.dll
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task5_Builder\obj\Debug\net7.0\task5_Builder.pdb
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task5_Builder\obj\Debug\net7.0\task5_Builder.genruntimeconfig.cache
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task5_Builder\obj\Debug\net7.0\ref\task5_Builder.dll

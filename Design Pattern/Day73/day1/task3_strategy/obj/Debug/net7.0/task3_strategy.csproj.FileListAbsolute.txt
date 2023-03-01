@@ -1,0 +1,15 @@
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task3_strategy\bin\Debug\net7.0\task3_strategy.exe
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task3_strategy\bin\Debug\net7.0\task3_strategy.deps.json
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task3_strategy\bin\Debug\net7.0\task3_strategy.runtimeconfig.json
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task3_strategy\bin\Debug\net7.0\task3_strategy.dll
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task3_strategy\bin\Debug\net7.0\task3_strategy.pdb
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task3_strategy\obj\Debug\net7.0\task3_strategy.csproj.AssemblyReference.cache
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task3_strategy\obj\Debug\net7.0\task3_strategy.GeneratedMSBuildEditorConfig.editorconfig
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task3_strategy\obj\Debug\net7.0\task3_strategy.AssemblyInfoInputs.cache
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task3_strategy\obj\Debug\net7.0\task3_strategy.AssemblyInfo.cs
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task3_strategy\obj\Debug\net7.0\task3_strategy.csproj.CoreCompileInputs.cache
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task3_strategy\obj\Debug\net7.0\task3_strategy.dll
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task3_strategy\obj\Debug\net7.0\refint\task3_strategy.dll
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task3_strategy\obj\Debug\net7.0\task3_strategy.pdb
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task3_strategy\obj\Debug\net7.0\task3_strategy.genruntimeconfig.cache
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task3_strategy\obj\Debug\net7.0\ref\task3_strategy.dll

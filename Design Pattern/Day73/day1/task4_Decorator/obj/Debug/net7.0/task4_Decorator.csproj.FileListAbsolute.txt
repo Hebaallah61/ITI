@@ -1,0 +1,15 @@
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task4_Decorator\bin\Debug\net7.0\task4_Decorator.exe
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task4_Decorator\bin\Debug\net7.0\task4_Decorator.deps.json
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task4_Decorator\bin\Debug\net7.0\task4_Decorator.runtimeconfig.json
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task4_Decorator\bin\Debug\net7.0\task4_Decorator.dll
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task4_Decorator\bin\Debug\net7.0\task4_Decorator.pdb
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task4_Decorator\obj\Debug\net7.0\task4_Decorator.csproj.AssemblyReference.cache
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task4_Decorator\obj\Debug\net7.0\task4_Decorator.GeneratedMSBuildEditorConfig.editorconfig
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task4_Decorator\obj\Debug\net7.0\task4_Decorator.AssemblyInfoInputs.cache
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task4_Decorator\obj\Debug\net7.0\task4_Decorator.AssemblyInfo.cs
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task4_Decorator\obj\Debug\net7.0\task4_Decorator.csproj.CoreCompileInputs.cache
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task4_Decorator\obj\Debug\net7.0\task4_Decorator.dll
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task4_Decorator\obj\Debug\net7.0\refint\task4_Decorator.dll
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task4_Decorator\obj\Debug\net7.0\task4_Decorator.pdb
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task4_Decorator\obj\Debug\net7.0\task4_Decorator.genruntimeconfig.cache
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task4_Decorator\obj\Debug\net7.0\ref\task4_Decorator.dll

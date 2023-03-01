@@ -1,0 +1,15 @@
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task1\bin\Debug\net7.0\task1_Observer.exe
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task1\bin\Debug\net7.0\task1_Observer.deps.json
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task1\bin\Debug\net7.0\task1_Observer.runtimeconfig.json
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task1\bin\Debug\net7.0\task1_Observer.dll
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task1\bin\Debug\net7.0\task1_Observer.pdb
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task1\obj\Debug\net7.0\task1_Observer.csproj.AssemblyReference.cache
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task1\obj\Debug\net7.0\task1_Observer.GeneratedMSBuildEditorConfig.editorconfig
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task1\obj\Debug\net7.0\task1_Observer.AssemblyInfoInputs.cache
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task1\obj\Debug\net7.0\task1_Observer.AssemblyInfo.cs
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task1\obj\Debug\net7.0\task1_Observer.csproj.CoreCompileInputs.cache
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task1\obj\Debug\net7.0\task1_Observer.dll
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task1\obj\Debug\net7.0\refint\task1_Observer.dll
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task1\obj\Debug\net7.0\task1_Observer.pdb
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task1\obj\Debug\net7.0\task1_Observer.genruntimeconfig.cache
+E:\CS problem solving\c#pd_heba\first_use\D15_Design_Pattern\task1\obj\Debug\net7.0\ref\task1_Observer.dll
