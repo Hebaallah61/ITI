@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+@{
+    string name = "Heba";
+    DateTime date = DateTime.Now;
+}
+<body>
+    <form method="post" style="background-color:bisque">
+        <pre>
+        
+        Name:      <input type="text" name="Name" />
+        
+        Birth Date <input type="date" name="BirthDate" />
+        
+        <input type="checkbox" name="grad" /> Is Graduated
+        
+        <button type="submit">Go</button>
+        </pre>
+    </form>
+
+    @if (IsPost)
+    {
+        <div style="background-color:antiquewhite">
+            <p style="color:coral">Hello  @Request["Name"]</p>
+            <p style="color:crimson">your Birthdate is: @Request["BirthDate"]</p>
+            @if (@Request["grad"] == "on")
+            {
+                <p style="color:brown">yessss Am Graduated</p>
+            }
+            else
+            {
+
+                <p style="color:burlywood">no Am not graduated</p>
+            }
+
+        </div>
+    }
+</body>
+</html>

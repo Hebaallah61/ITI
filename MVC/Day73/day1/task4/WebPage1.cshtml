@@ -1,0 +1,26 @@
+﻿@using task4
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    @{
+        List<Employee> Employees = new List<Employee>()
+    {
+            new Employee() { Id = 1, Name = "Heba", salary = 500000 },
+            new Employee() { Id = 2, Name = "Ali", salary = 400000 },
+            new Employee() { Id = 3, Name = "Mohammed", salary = 600000 },
+            new Employee() { Id = 4, Name = "Ahmed", salary = 900000 }
+            };
+    }
+
+    @{WebGrid grid = new WebGrid(Employees);
+
+    }
+    @grid.GetHtml()
+
+
+</body>
+</html>

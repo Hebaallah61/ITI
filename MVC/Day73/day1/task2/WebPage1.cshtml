@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    
+
+    <style>
+        .a2 {
+            width: 45%;
+            padding-left: 15px;
+            margin-left: 15px;
+            float: right;
+            font-style: italic;
+           
+        }
+
+        .a1 {
+            width: 45%;
+            padding-left: 15px;
+            margin-left: 15px;
+            float: left;
+            font-style: italic;
+            background-color: antiquewhite;
+        }
+    </style>
+</head>
+<body style="background-color:bisque" >
+
+    @{
+        var imagPath = "";
+        var img = "";
+    }
+   
+        
+    <aside class="a1">
+        <form method="post">
+            <p>Choose Background</p>
+            <select name="imageList" title="Choose">
+
+                <option value="4.jpg"> Image_4 </option>
+                <option value="5.jpg"> Image_5 </option>
+                <option value="6.jpg"> Image_6 </option>
+                <option value="7.jpg"> Image_7 </option>
+                <option value="8.jpg"> Image_8 </option>
+                <option value="9.jpg"> Image_9 </option>
+                <option value="10.jpg"> Image_10 </option>
+                <option value="11.jpg"> Image_11</option>
+            </select>
+
+            <p>Choose Font Color</p>
+            <select name="fontcolor" placeholder="Choose">
+                <option value="red">Red</option>
+                <option value="blue">Blue</option>
+                <option value="yellow">Yellow</option>
+            </select>
+
+
+            <p>Choose a gretting type</p>
+
+            <input type="radio" name="img" value="bd.jpg" />     <label>Birth Day</label><br />
+
+            <input type="radio" name="img" value="congrats.gif" /><label>Congrats</label><br />
+
+            <input type="radio" name="img" value="val.bmp" />     <label>Valentaine</label><br />
+
+            <input type="radio" name="img" value="well.gif" />    <label>Get Well Soon</label><br />
+            <br />
+            <br />
+
+            <input type="checkbox" value="hidden" name="add" />
+            <label>Do not add the picture</label>
+
+            <p>Enter the message</p>
+            <input type="text" name="mess" />
+
+            <input type="submit" value="Preview" />
+            <br />
+            <br />
+
+
+        </form>
+
+    </aside>
+
+       
+        <aside class="a2">
+       
+            @if (IsPost)
+            {
+
+                imagPath = "/backgrounds/" + Request["imageList"];
+                img = "/images/" + Request["img"];
+
+                <div class="col-12" style="display: table-cell; vertical-align: middle; text-align: center; background-image: url( @imagPath ); width: 500px; height: 350px;">
+                    <img width="200" height="150" src="@img" alt="Alternate Text" style="visibility:@Request["add"]" />
+                    <h2 style="color:@Request["fontcolor"]">@Request["mess"]</h2>
+                </div>
+            }
+        </aside>
+     
+   
+</body>
+
+
+</html>

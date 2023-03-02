@@ -1,0 +1,17 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+
+    <div style="width:500px; height:500px">
+
+        @{
+            var myChart = new Chart(width: 500, height: 400).AddTitle("Employees").AddSeries(chartType: "Pie",
+                  xValue: new[] { "Heba", "Ali", "Ahmed" },
+                  yValues: new[] { "2", "6", "4" }).Write();
+        }
+    </div>
+</body>
+</html>
