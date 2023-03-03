@@ -21,7 +21,7 @@
  **WF_ADO** |* 3Days | day68 | day70
  **EF_WF/WPF** |* 3Days | day71 | day72/
  **Design Pattern** |* 2Days | day73 | day74
-
+ **MVC** |* 10Days | day75 | 
 
  
              
