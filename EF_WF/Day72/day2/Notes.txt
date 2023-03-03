@@ -1,0 +1,17 @@
+Original style of context ==> using(){}
+Advanced==>Using company_context context=new company_context();
+
+Manager console to install Migration:
+PM>  install-package Microsoft.EntityFrameworkCore.Tools
+PM>  install-package Microsoft.EntityFrameworkCore.Design 
+
+UP->A-->B
+Down->B-->A go to the old version
+PM> update-Database //if there is no date base create it and have one table inside it the version of database
+PM>Add-Migration AddEmployeeEntity//add table but not added in DB
+PM> Update-Database//add it in database
+Or//
+Context.Database.Migrate(); in code 
+PM> Update-Datebase InitialCreate//step back to initial create
+PM> remove-Migration 20230223113846_AddEmployeeEntity//remove AddEmployeeEntity class or//PM> remove-Migration
+
