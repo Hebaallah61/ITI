@@ -1,0 +1,66 @@
+﻿@using task1.Models;
+@{
+    ViewBag.Title = "getAllCars";
+    List<Car> myCarList = ViewBag.Cars;
+}
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<h2 style="font-family: cursive" class="bg-dark text-white">All Availabel Cars <button class="btn btn-dark" style="margin-left:850px"><a href="/Car/AddCar" style="color:white" class="text-decoration-none"> Add New Car </a></button></h2>
+
+
+<div style="font-family: cursive">
+    <table class="table table-hover table-dark">
+        <tr style="color:white; font-size:20px">
+            <th> Num </th>
+            <th> Color </th>
+            <th> Model </th>
+            <th> Manfacture </th>
+            <th> &nbsp; </th>
+            <th> &nbsp; </th>
+            <th> &nbsp; </th>
+        </tr>
+
+        @foreach (var item in myCarList)
+        {
+            <tr style="color:white">
+                <td> @item.Num </td>
+                <td> @item.Color </td>
+                <td> @item.Model </td>
+                <td> @item.Manfacture </td>
+                <td> <button class="btn btn-outline-info"><a href="/Car/getById/@item.Num" class="text-decoration-none" style="color:white"> Select Car </a></button> </td>
+                <td> <button class="btn btn-outline-warning"><a href="/Car/EditCar/@item.Num" class="text-decoration-none" style="color:white"> Edit Car </a></button> </td>
+                <td> <button class="btn btn-outline-danger"><a href="/Car/deleteCar/@item.Num" class="text-decoration-none delete-item"  style="color:white"> Delete Car </a></button> </td> 
+
+            </tr>
+        }
+    </table>
+</div>
+
+
+@section Scripts{
+
+
+    <script>
+        $(document).on("click", ".delete-item", function () {
+
+          
+            
+                let mydiv = document.createElement("div");
+                mydiv.className = "alert alert-success";
+                mydiv.setAttribute("role", "alert");
+                mydiv.textContent = "Item deleted successfully";          
+                document.body.appendChild(mydiv)
+             
+       
+        });
+
+      
+
+</script>
+        
+}
+     
+
+
+

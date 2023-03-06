@@ -1,0 +1,40 @@
+﻿@using task1.Models;
+@{
+    ViewBag.Title = "EditCar";
+    Car editedCar = ViewBag.selectedCar;
+}
+
+<h2>Edit Car @editedCar.Num</h2>
+
+
+
+<div style="font-family: cursive">
+    <form action="/Car/EditCar" method="post">
+        <table class="table table-hover table-dark">
+            <tr style="color:white; font-size:20px">
+                <th> Num </th>
+                <th> Color </th>
+                <th> Model </th>
+                <th> Manfacture </th>
+                <th> &nbsp; </th>
+                <th> &nbsp; </th>
+                <th> &nbsp; </th>
+            </tr>
+
+
+            <tr style="color:white">
+                <td> <input type="text" name="Num" value="@editedCar.Num" readonly/> </td>
+                <td> <input type="text" name="Color" value="@editedCar.Color" /> </td>
+                <td> <input type="text" name="Model" value="@editedCar.Model" /> </td>
+                <td> <input type="text" name="Manfacture" value="@editedCar.Manfacture" /> </td>
+                <td><input type="submit" value="Save" class="btn btn-info" /></td>
+            </tr>
+
+        </table>
+        
+
+    </form>
+        <button style="font-family: cursive" class="btn btn-dark" style="margin-left:850px"><a href="/Car/getAllCars" style="color:white" class="text-decoration-none"> Back To List </a></button>
+
+    
+</div>

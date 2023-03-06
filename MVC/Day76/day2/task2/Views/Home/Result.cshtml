@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewBag.Title = "Result";
+}
+
+<h2>Result</h2>
+
+
+<table class="table" style="color:white">
+    <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Name</th>
+            <th scope="col">Image</th>
+            
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+           
+            <td>@ViewBag.Id</td>
+            <td>@ViewBag.Name</td>
+            <td><img src="~/images/@ViewBag.Image" width="150" height="150" /></td>
+        </tr>
+        </tbody>
+    </table>

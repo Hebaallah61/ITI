@@ -1,0 +1,45 @@
+﻿@using task1.Models;
+
+
+
+
+
+@{
+    ViewBag.Title = "getById";
+
+    Car curCar = ViewBag.selectedCar;
+}
+
+<h2>Car @curCar.Num</h2>
+
+<div style="font-family: cursive">
+    <table class="table table-hover table-dark">
+        <tr style="color:white; font-size:20px">
+            <th> Num </th>
+            <th> Color </th>
+            <th> Model </th>
+            <th> Manfacture </th>
+            <th> &nbsp; </th>
+            <th> &nbsp; </th>
+            <th> &nbsp; </th>
+        </tr>
+
+
+        <tr style="color:white">
+            <td> @curCar.Num </td>
+            <td> @curCar.Color </td>
+            <td> @curCar.Model </td>
+            <td> @curCar.Manfacture </td>
+            <td> <button class="btn btn-outline-warning"><a href="/Car/EditCar/@curCar.Num" class="text-decoration-none" style="color:white"> Edit Car </a></button> </td>
+            <td> <button class="btn btn-outline-danger"><a href="/Car/deleteCar/@curCar.Num" class="text-decoration-none" style="color:white"> Delete Car </a></button> </td>
+
+        </tr>
+
+    </table>
+
+    
+
+    <button style="font-family: cursive" class="btn btn-dark" style="margin-left:850px"><a href="/Car/getAllCars" style="color:white" class="text-decoration-none"> Back To List </a></button>
+    
+
+</div>
