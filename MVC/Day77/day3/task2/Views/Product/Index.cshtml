@@ -1,0 +1,88 @@
+﻿@model IEnumerable<task2.Models.Product>
+
+@{
+    ViewBag.Title = "Index";
+}
+<div>
+    <h2 style="display: flex">
+        Products  <button class="btn btn-dark" style="margin-left: 850px"><a href="/Product/Create" class="text-decoration-none" style="color:white"> Add New Product </a></button>
+        <form action="~/Product" method="post" style="color:white; margin-left:10px; display:flex">
+            @Html.DropDownList("SupplierID", new SelectList(ViewBag.csupliers, "SupplierID", "CompanyName"), htmlAttributes: new { @class = "form-control" })
+            <button type="submit" class="btn btn-dark" style="font-size:20px">OK</button>
+        </form>
+    </h2>
+</div>
+
+
+
+<table class="table table-hover table-dark" style="color:white">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ProductName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CategoryID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.QuantityPerUnit)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.UnitPrice)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.UnitsInStock)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.UnitsOnOrder)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ReorderLevel)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Discontinued)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Supplier.CompanyName)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CategoryID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.QuantityPerUnit)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UnitPrice)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UnitsInStock)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UnitsOnOrder)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReorderLevel)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Discontinued)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Supplier.CompanyName)
+            </td>
+           
+            <td> <button class="btn btn-outline-info"><a href="/Product/Details/@item.ProductID" class="text-decoration-none" style="color:white"> Details  </a></button> </td>
+            <td> <button class="btn btn-outline-warning"><a href="/Product/Edit/@item.ProductID" class="text-decoration-none" style="color:white"> Edit  </a></button> </td>
+            <td> <button class="btn btn-outline-danger"><a href="/Product/Delete/@item.ProductID" class="text-decoration-none delete-item" style="color:white"> Delete  </a></button> </td>
+           
+        </tr>
+    }
+
+</table>

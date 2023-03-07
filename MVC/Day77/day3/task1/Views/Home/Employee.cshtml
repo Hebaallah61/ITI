@@ -1,0 +1,49 @@
+﻿@using task1.Models
+
+@model List<Employee>
+
+@{
+    ViewBag.Title = "Employee";
+
+}
+
+<h2>Employees</h2>
+
+<table class="table table-hover table-dark" style="color:white">
+    <tr>
+        <th>
+           ID
+        </th>
+        <th>
+           Name
+        </th>
+        <th>
+           Title
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+
+            <td>
+                <button class="btn btn-outline-info"><a href="/Home/GetById/@item.Id" class="text-decoration-none" style="color:white"> Details  </a></button>
+            </td>
+            <td>
+             <button class="btn btn-outline-danger"><a href="/Home/delete/@item.Id" class="text-decoration-none delete-item" style="color:white"> Delete  </a></button> 
+            </td>
+        </tr>
+    }
+
+</table>
+
+

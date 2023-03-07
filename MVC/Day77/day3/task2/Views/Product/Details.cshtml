@@ -1,0 +1,83 @@
+﻿@model task2.Models.Product
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Product @Model.ProductID</h2>
+
+<div>
+
+
+    <table class="table table-hover table-dark">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ProductName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CategoryID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.QuantityPerUnit)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UnitPrice)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UnitsInStock)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UnitsOnOrder)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ReorderLevel)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Discontinued)
+                    </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Supplier.CompanyName)
+                    </th>
+            </tr>
+        <tr>
+            <td>
+                @Html.DisplayFor(model => model.ProductName)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.CategoryID)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.QuantityPerUnit)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.UnitPrice)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.UnitsInStock)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.UnitsOnOrder)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.ReorderLevel)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.Discontinued)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.Supplier.CompanyName)
+            </td>
+            <td>
+            </td>
+            <td> <button class="btn btn-outline-warning"><a href="/Product/Edit/@Model.ProductID" class="text-decoration-none" style="color:white"> Edit  </a></button> </td>
+            <td> <button class="btn btn-outline-danger"><a href="/Product/Delete/@Model.ProductID" class="text-decoration-none delete-item" style="color:white"> Delete  </a></button> </td>
+
+        </tr>
+
+    
+    </table>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ProductID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
