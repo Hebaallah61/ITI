@@ -1,0 +1,23 @@
+﻿@model HandleErrorInfo
+@{
+    ViewBag.Title = "MyErrorAdmin";
+}
+
+<h2>My Error In Admin</h2>
+<div class="alert alert-danger" role="alert">
+    <table class="table table-hover table-dark">
+        <tr>
+            <th>Error Message</th>
+            <th>Controller</th>
+            <th>Action</th>
+        </tr>
+        <tr>
+            <td>@Model.Exception.Message</td>
+            <td>@Model.ControllerName</td>
+            <td>@Model.ActionName</td>
+        </tr>
+        
+    </table>
+    
+
+</div>

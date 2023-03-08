@@ -1,0 +1,72 @@
+﻿@model IEnumerable<task1.Areas.HR.Data.Employee>
+
+@{
+    ViewBag.Title = "All Employees";
+}
+
+<h2>All Employess <button class="btn btn-dark" style="margin-left: 850px"><a href="/HR/Employees/Create" class="text-decoration-none" style="color:white"> Add New Product </a></button></h2>
+
+
+<table class="table table-hover table-dark" style="color:white">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Username)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Password)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Gender)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Salary)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.joinDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.phoneNum)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Username)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Password)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Gender)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Salary)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.joinDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.email)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.phoneNum)
+        </td>
+        <td> <button class="btn btn-outline-info"><a href="/HR/Employees/Details/@item.Id" class="text-decoration-none" style="color:white"> Details  </a></button> </td>
+        <td> <button class="btn btn-outline-warning"><a href="/HR/Employees/Edit/@item.Id" class="text-decoration-none" style="color:white"> Edit  </a></button> </td>
+        <td> <button class="btn btn-outline-danger"><a href="/HR/Employees/Delete/@item.Id" class="text-decoration-none delete-item" style="color:white"> Delete  </a></button> </td>
+
+    </tr>
+}
+
+</table>
