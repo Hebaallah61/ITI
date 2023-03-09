@@ -1,0 +1,54 @@
+﻿@model task1.Models.Client_
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details Of Client @Model.CustID</h2>
+
+<div>
+    
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Gender)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Gender)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.email)
+        </dt>
+
+        <dd>
+            @*@Html.DisplayFor(model => model.email)*@
+            <p> @Model.email</p>
+</dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.phoneNum)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.phoneNum)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    <td> <button class="btn btn-outline-warning"><a href="/Client_/Edit/@Model.CustID" class="text-decoration-none" style="color:white"> Edit  </a></button> </td>
+    <td> <button class="btn btn-outline-danger"><a href="/Heba/Delete/@Model.CustID" class="text-decoration-none delete-item" style="color:white"> Delete  </a></button> </td>
+    <td><button class="btn btn-outline-secondary"><a href="/Heba" class="text-decoration-none" style="color:white">Back To List</a></button></td>
+
+    @*@Html.ActionLink("Back to List", "Index")*@
+</p>

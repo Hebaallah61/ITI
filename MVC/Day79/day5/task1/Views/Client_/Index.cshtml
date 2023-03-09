@@ -1,0 +1,57 @@
+﻿@model IEnumerable<task1.Models.Client_>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+
+
+<h2>
+    All Clients <button class="btn btn-dark" style="margin-left: 850px"><a href="/Client_/Create" class="text-decoration-none" style="color:white"> Add New Client </a></button>
+
+
+</h2>
+<table class="table table-hover table-cadetblue" style="color:white">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Gender)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.phoneNum)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Gender)
+        </td>
+        <td>
+            @*@Html.DisplayFor(modelItem => item.email)*@
+            <p>@item.email</p>
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.phoneNum)
+        </td>
+        <td>
+           
+        
+        <td> <button class="btn btn-outline-info"><a href="/Heba/Detail/@item.CustID" class="text-decoration-none" style="color:white"> Details  </a></button> </td>
+        <td> <button class="btn btn-outline-warning"><a href="/Client_/Edit/@item.CustID" class="text-decoration-none" style="color:white"> Edit  </a></button> </td>
+        <td> <button class="btn btn-outline-danger"><a href="/Heba/Delete/@item.CustID" class="text-decoration-none delete-item" style="color:white"> Delete  </a></button> </td>
+
+        </td>
+    </tr>
+}
+
+</table>
