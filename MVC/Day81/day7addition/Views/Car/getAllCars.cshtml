@@ -1,0 +1,50 @@
+@using WebApplication1.Controllers
+@using WebApplication1.Models;
+@using Car = WebApplication1.Models.Car
+
+
+
+@{
+    ViewBag.Title = "title";
+    List<Car> myCarList = ViewBag.Cars;
+}
+<body style="background-color: black">
+
+
+<h2 style="font-family: cursive;color: aliceblue" class="bg-dark text-white">All Availabel Cars <button class="btn btn-dark" style="margin-left:850px"><a href="/Car/AddCar"  class="text-decoration-none"> Add New Car </a></button></h2>
+
+
+<div style="font-family: cursive">
+    <table class="table table-hover table-dark">
+        <tr style="color:white; font-size:20px">
+            <th> Num </th>
+            <th> Color </th>
+            <th> Model </th>
+            <th> Manfacture </th>
+            <th> &nbsp; </th>
+            <th> &nbsp; </th>
+            <th> &nbsp; </th>
+        </tr>
+
+        @foreach (var item in myCarList)
+        {
+            <tr style="color:white">
+                <td> @item.Num </td>
+                <td> @item.Color </td>
+                <td> @item.Model </td>
+                <td> @item.Manfacture </td>
+                <td> <button class="btn btn-outline-info"><a href="/Car/getById/@item.Num" class="text-decoration-none" > Select Car </a></button> </td>
+                <td> <button class="btn btn-outline-warning"><a href="/Car/EditCar/@item.Num" class="text-decoration-none" > Edit Car </a></button> </td>
+                <td> <button class="btn btn-outline-danger"><a href="/Car/deleteCar/@item.Num" class="text-decoration-none delete-item"  > Delete Car </a></button> </td> 
+
+            </tr>
+        }
+    </table>
+</div>
+
+
+
+</body>
+
+
+

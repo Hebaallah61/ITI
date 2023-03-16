@@ -1,0 +1,51 @@
+@model dynamic
+@using WebApplication1.Controllers
+@using WebApplication1.Models;
+@using Car = WebApplication1.Models.Car
+
+@{
+   
+    Car curCar = ViewBag.selectedCar;
+}
+
+<!DOCTYPE html>
+
+<html>
+
+<body style="background-color: black;color: aliceblue">
+<h2>Car @curCar.Num</h2>
+
+<div style="font-family: cursive;color: aliceblue">
+    <table class="table table-hover table-dark">
+        <tr style="color:white; font-size:20px">
+            <th> Num </th>
+            <th> Color </th>
+            <th> Model </th>
+            <th> Manfacture </th>
+            <th> &nbsp; </th>
+            <th> &nbsp; </th>
+            <th> &nbsp; </th>
+        </tr>
+
+
+        <tr style="color:white">
+            <td> @curCar.Num </td>
+            <td> @curCar.Color </td>
+            <td> @curCar.Model </td>
+            <td> @curCar.Manfacture </td>
+            <td> <button class="btn btn-outline-warning"><a href="/Car/EditCar/@curCar.Num" class="text-decoration-none" > Edit Car </a></button> </td>
+            <td> <button class="btn btn-outline-danger"><a href="/Car/deleteCar/@curCar.Num" class="text-decoration-none" > Delete Car </a></button> </td>
+
+        </tr>
+
+    </table>
+
+    
+
+    <button style="font-family: cursive" class="btn btn-dark" style="margin-left:850px"><a href="/Car/getAllCars"  class="text-decoration-none"> Back To List </a></button>
+    
+
+</div>
+
+</body>
+</html>

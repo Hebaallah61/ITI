@@ -1,0 +1,44 @@
+@model dynamic
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+
+<body style="background-color: black">
+<div style="font-family: cursive">
+    <form action="/Car/AddCar" method="post">
+        <table class="table table-hover table-dark">
+            <tr style="color:white; font-size:20px">
+                <th> Num </th>
+                <th> Color </th>
+                <th> Model </th>
+                <th> Manfacture </th>
+                <th> &nbsp; </th>
+                <th> &nbsp; </th>
+                <th> &nbsp; </th>
+            </tr>
+
+
+            <tr style="color:white">
+                <td> <input type="text" name="Num" value="Num" /> </td>
+                <td> <input type="text" name="Color" value="Color" /> </td>
+                <td> <input type="text" name="Model" value="Model" /> </td>
+                <td> <input type="text" name="Manfacture" value="Manfacture" /> </td>
+                <td> <input type="submit" value="Save" class="btn btn-info" /></td>
+            </tr>
+
+        </table>
+
+
+    </form>
+    <button style="font-family: cursive" class="btn btn-dark" style="margin-left:850px"><a href="/Car/getAllCars"  class="text-decoration-none"> Back To List </a></button>
+
+
+</div>
+
+</body>
+</html>
