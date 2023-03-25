@@ -1,0 +1,14 @@
+E:\CS problem solving\c#pd_heba\MVC\HotelProject\HotalDAL\bin\Debug\net7.0\HotalDAL.deps.json
+E:\CS problem solving\c#pd_heba\MVC\HotelProject\HotalDAL\bin\Debug\net7.0\HotalDAL.runtimeconfig.json
+E:\CS problem solving\c#pd_heba\MVC\HotelProject\HotalDAL\bin\Debug\net7.0\HotalDAL.dll
+E:\CS problem solving\c#pd_heba\MVC\HotelProject\HotalDAL\bin\Debug\net7.0\HotalDAL.pdb
+E:\CS problem solving\c#pd_heba\MVC\HotelProject\HotalDAL\obj\Debug\net7.0\HotalDAL.csproj.AssemblyReference.cache
+E:\CS problem solving\c#pd_heba\MVC\HotelProject\HotalDAL\obj\Debug\net7.0\HotalDAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\CS problem solving\c#pd_heba\MVC\HotelProject\HotalDAL\obj\Debug\net7.0\HotalDAL.AssemblyInfoInputs.cache
+E:\CS problem solving\c#pd_heba\MVC\HotelProject\HotalDAL\obj\Debug\net7.0\HotalDAL.AssemblyInfo.cs
+E:\CS problem solving\c#pd_heba\MVC\HotelProject\HotalDAL\obj\Debug\net7.0\HotalDAL.csproj.CoreCompileInputs.cache
+E:\CS problem solving\c#pd_heba\MVC\HotelProject\HotalDAL\obj\Debug\net7.0\HotalDAL.dll
+E:\CS problem solving\c#pd_heba\MVC\HotelProject\HotalDAL\obj\Debug\net7.0\refint\HotalDAL.dll
+E:\CS problem solving\c#pd_heba\MVC\HotelProject\HotalDAL\obj\Debug\net7.0\HotalDAL.pdb
+E:\CS problem solving\c#pd_heba\MVC\HotelProject\HotalDAL\obj\Debug\net7.0\HotalDAL.genruntimeconfig.cache
+E:\CS problem solving\c#pd_heba\MVC\HotelProject\HotalDAL\obj\Debug\net7.0\ref\HotalDAL.dll

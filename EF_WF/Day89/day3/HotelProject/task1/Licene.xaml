@@ -1,0 +1,30 @@
+﻿<Window x:Class="task1.Licene"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:task1"
+        mc:Ignorable="d"
+        Title="Licene" Height="346" Width="679">
+    <Grid Margin="0,-19,224,25">
+        <RichTextBox x:Name="richTextBox" TextChanged="richTextBox_TextChanged" Margin="10,107,-188,122" RenderTransformOrigin="0.499,1.211" IsReadOnly="True">
+            <FlowDocument>
+                <Paragraph>
+                    <Run Text="This program is written for educational purposes only. 
+ 
+Open Source frameworks:
+Modern UI - most of the metro UI implimented using this open source framework
+license under: MIT - http://github.com/viperneo
+
+Twilio - this framework by twilio was used to send the Message to phone number 
+regarding
+customer reservation. 
+https://www.twilio.com/
+
+"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+
+    </Grid>
+</Window>

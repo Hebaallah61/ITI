@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "tcP4XCiUmxzyhWTIsUUCzHvjfSTzNPVDLYpUpzjtSFKvPUmhi0BIMK1GZ6jcbSZLT4n0u0nRw/uUoNKeFcbQkw==",
+  "success": true,
+  "projectFilePath": "E:\\CS problem solving\\c#pd_heba\\API\\Day1\\task1\\task1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\game\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\game\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\game\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\game\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\game\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\game\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}

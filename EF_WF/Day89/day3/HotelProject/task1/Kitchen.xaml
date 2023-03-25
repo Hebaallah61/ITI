@@ -1,0 +1,94 @@
+﻿<Window x:Class="task1.Kitchen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:task1"
+        mc:Ignorable="d"
+        Title="Kitchen" Height="450" Width="930">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="138*"/>
+            <ColumnDefinition Width="589*"/>
+            <ColumnDefinition Width="69*"/>
+            <ColumnDefinition Width="20*"/>
+            <ColumnDefinition Width="28*"/>
+            <ColumnDefinition Width="6*"/>
+        </Grid.ColumnDefinitions>
+        <TabControl x:Name="tabControl" Grid.ColumnSpan="6" SelectionChanged="tabControl_SelectionChanged">
+            <TabItem Header="To Do*">
+                <Grid Height="405" Margin="0,0,2,0" Loaded="Grid_Loaded">
+                    <Grid.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FF87A3BB"/>
+                            <GradientStop Color="#FFECF4FA" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Grid.Background>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="68*"/>
+                        <ColumnDefinition Width="27*"/>
+                        <ColumnDefinition Width="747*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock x:Name="textBlock_Copy2" HorizontalAlignment="Left" Margin="33,154,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="26" Width="107" Grid.ColumnSpan="3"/>
+                    <TextBox x:Name="F" HorizontalAlignment="Left" Margin="33,67,0,0" TextWrapping="Wrap" Text="First" VerticalAlignment="Top" Width="107" Height="36" Grid.ColumnSpan="3"/>
+                    <TextBox x:Name="L" HorizontalAlignment="Left" Margin="66,67,0,0" TextWrapping="Wrap" Text="Last" VerticalAlignment="Top" Width="107" Height="36" Grid.Column="2"/>
+                    <TextBox x:Name="P" HorizontalAlignment="Left" Margin="33,139,0,0" TextWrapping="Wrap" Text="(999)-999-9999" VerticalAlignment="Top" Width="244" Height="36" Grid.ColumnSpan="3"/>
+                    <TextBox x:Name="RT" HorizontalAlignment="Left" Margin="33,203,0,0" TextWrapping="Wrap" Text="Room Type" VerticalAlignment="Top" Width="107" Height="36" Grid.ColumnSpan="3"/>
+                    <TextBox x:Name="RF" HorizontalAlignment="Left" Margin="66,203,0,0" TextWrapping="Wrap" Text="Floor#" VerticalAlignment="Top" Width="107" Height="36" Grid.Column="2"/>
+                    <TextBox x:Name="R" HorizontalAlignment="Left" Margin="33,276,0,0" TextWrapping="Wrap" Text="Room#" VerticalAlignment="Top" Width="244" Height="41" Grid.ColumnSpan="3"/>
+                    <GroupBox x:Name="groupBox" Header="GroupBox" Margin="193,52,193,89" Grid.Column="2"/>
+                    <TextBox x:Name="BF" HorizontalAlignment="Left" Margin="210,92,0,0" TextWrapping="Wrap" Text="Breakfast" VerticalAlignment="Top" Width="148" Height="36" Grid.Column="2"/>
+                    <TextBox x:Name="LU" HorizontalAlignment="Left" Margin="388,92,0,0" TextWrapping="Wrap" Text="Lunch" VerticalAlignment="Top" Width="149" Height="36" Grid.Column="2"/>
+                    <TextBox x:Name="DI" HorizontalAlignment="Left" Margin="210,157,0,0" TextWrapping="Wrap" Text="Dinner" VerticalAlignment="Top" Width="327" Height="36" Grid.Column="2"/>
+                    <CheckBox x:Name="CL" Content="Cleaning" HorizontalAlignment="Left" Margin="210,213,0,0" VerticalAlignment="Top" Grid.Column="2" IsEnabled="False" />
+                    <CheckBox x:Name="TO" Content="Towels" HorizontalAlignment="Left" Margin="314,213,0,0" VerticalAlignment="Top" Grid.Column="2" IsEnabled="False" />
+                    <CheckBox x:Name="TT" Content="Seewtest Surprise" HorizontalAlignment="Left" Margin="424,213,0,0" VerticalAlignment="Top" Grid.Column="2" IsEnabled="False" />
+                    <CheckBox x:Name="FOOD" Content="Food/Supply Status" HorizontalAlignment="Left" Margin="314,249,0,0" VerticalAlignment="Top" Grid.Column="2" Checked="FOOD_Checked"/>
+                    <Button x:Name="button" Content="Change" HorizontalAlignment="Left" Margin="243,276,0,0" VerticalAlignment="Top" Width="281" Height="26" Grid.Column="2" Click="button_Click">
+                        <Button.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="#FFC9C6E6" Offset="0.285"/>
+                                <GradientStop Color="#FFBAB8D7" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
+                    <ListBox x:Name="listBox" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="561,66,10,90" Grid.Column="2" SelectionChanged="listBox_SelectionChanged" Loaded="listBox_Loaded" Background="#FFE7E9F3"/>
+                    <Button x:Name="button_Copy" Content="Update" HorizontalAlignment="Left" Margin="628,336,0,0" VerticalAlignment="Top" Width="114" Height="26" Grid.Column="2" Click="button_Copy_Click">
+                        <Button.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="#FF97A5CF"/>
+                                <GradientStop Color="#FFC9D1E9" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
+                    <Label x:Name="label" Content="On The Line" HorizontalAlignment="Left" Margin="559,30,0,0" VerticalAlignment="Top" Width="127" Grid.Column="2"/>
+                    <Label x:Name="label1" Content="Name" HorizontalAlignment="Left" Margin="33,34,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+                    <Label x:Name="label1_Copy" Content="Phone" HorizontalAlignment="Left" Margin="33,108,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+                    <Label x:Name="label1_Copy1" Content="Room Type" HorizontalAlignment="Left" Margin="33,175,0,0" VerticalAlignment="Top" Grid.ColumnSpan="3"/>
+                    <Label x:Name="label1_Copy2" Content="Room #" HorizontalAlignment="Left" Margin="35,243,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+                    <Label x:Name="label1_Copy3" Content="Floor" HorizontalAlignment="Left" Margin="66,174,0,0" VerticalAlignment="Top" Grid.Column="2"/>
+                    <Label x:Name="label1_Copy4" Content="Brakefast" HorizontalAlignment="Left" Margin="204,66,0,0" VerticalAlignment="Top" Grid.Column="2"/>
+                    <Label x:Name="label1_Copy5" Content="Lunch" HorizontalAlignment="Left" Margin="388,66,0,0" VerticalAlignment="Top" Grid.Column="2"/>
+                    <Label x:Name="label1_Copy6" Content="Dinner" HorizontalAlignment="Left" Margin="210,131,0,0" VerticalAlignment="Top" Grid.Column="2"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Overview" Name="Room">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="39*"/>
+                        <ColumnDefinition Width="383*"/>
+                    </Grid.ColumnDefinitions>
+                    <DataGrid x:Name="dataGrid" d:ItemsSource="{d:SampleData ItemCount=5}" Grid.ColumnSpan="2" SelectionChanged="dataGrid_SelectionChanged">
+                        <DataGrid.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="#FF828AAE"/>
+                                <GradientStop Color="#FFB1BAE6" Offset="1"/>
+                            </LinearGradientBrush>
+                        </DataGrid.Background>
+                    </DataGrid>
+                </Grid>
+            </TabItem>
+        </TabControl>
+
+    </Grid>
+</Window>

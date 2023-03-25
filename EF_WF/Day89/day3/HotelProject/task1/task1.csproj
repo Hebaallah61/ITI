@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="ic_action_search %283%29.png" />
+    <None Remove="OIP %286%29.jpg" />
+    <None Remove="OIP %287%29.jpg" />
+    <None Remove="OIP %288%29.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.sqlserver" Version="7.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="MicrosoftExpressionInteractions" Version="3.0.40218" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HotalDAL\HotalDAL.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="ic_action_search (3).png" />
+    <Resource Include="OIP (6).jpg" />
+    <Resource Include="OIP (7).jpg" />
+    <Resource Include="OIP (8).jpg" />
+  </ItemGroup>
+
+</Project>
