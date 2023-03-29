@@ -15,13 +15,17 @@
  **SWE** |* 2Days | day44 | day45 
  **HTML5** |* 3Days | day46 | day47 / day55 
  **RWD[bootstrap]** |* 3Days | day48 | day50
- **C#** |* 11Days | day51 | day61/day
+ **C#** |* 11Days | day51 | day61/day91
  **WPF** |* 3Days | day62 | day64
  **ES_Next** |* 3Days | day65 | day67
  **WF_ADO** |* 3Days | day68 | day70
- **EF_WF/WPF** |* 3Days | day71 | day72/
+ **EF_WF/WPF** |* 4Days | day71 | day72/day89/day90
  **Design Pattern** |* 2Days | day73 | day74
- **MVC** |* 10Days | day75 | 
+ **MVC** |* 10Days | day75 |day83 
+ **API** |* 3Days | day84 |day86 
+ **Mongo** |* 3Days | day87 |day88/day92
+ **Node** |* 5Days | day93 |day97 
+ 
 
  
              
