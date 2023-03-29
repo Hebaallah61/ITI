@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(32, 83, 85);
+    color:azure;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+#f1{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 400px;
+}
+
+table{
+    margin-top: 150px;
+ 
+}
+
+
+
+

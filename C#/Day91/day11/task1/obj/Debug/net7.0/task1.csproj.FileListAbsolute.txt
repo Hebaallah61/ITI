@@ -1,0 +1,15 @@
+E:\CS problem solving\c#pd_heba\first_use\Day18\task1\bin\Debug\net7.0\task1.exe
+E:\CS problem solving\c#pd_heba\first_use\Day18\task1\bin\Debug\net7.0\task1.deps.json
+E:\CS problem solving\c#pd_heba\first_use\Day18\task1\bin\Debug\net7.0\task1.runtimeconfig.json
+E:\CS problem solving\c#pd_heba\first_use\Day18\task1\bin\Debug\net7.0\task1.dll
+E:\CS problem solving\c#pd_heba\first_use\Day18\task1\bin\Debug\net7.0\task1.pdb
+E:\CS problem solving\c#pd_heba\first_use\Day18\task1\obj\Debug\net7.0\task1.csproj.AssemblyReference.cache
+E:\CS problem solving\c#pd_heba\first_use\Day18\task1\obj\Debug\net7.0\task1.GeneratedMSBuildEditorConfig.editorconfig
+E:\CS problem solving\c#pd_heba\first_use\Day18\task1\obj\Debug\net7.0\task1.AssemblyInfoInputs.cache
+E:\CS problem solving\c#pd_heba\first_use\Day18\task1\obj\Debug\net7.0\task1.AssemblyInfo.cs
+E:\CS problem solving\c#pd_heba\first_use\Day18\task1\obj\Debug\net7.0\task1.csproj.CoreCompileInputs.cache
+E:\CS problem solving\c#pd_heba\first_use\Day18\task1\obj\Debug\net7.0\task1.dll
+E:\CS problem solving\c#pd_heba\first_use\Day18\task1\obj\Debug\net7.0\refint\task1.dll
+E:\CS problem solving\c#pd_heba\first_use\Day18\task1\obj\Debug\net7.0\task1.pdb
+E:\CS problem solving\c#pd_heba\first_use\Day18\task1\obj\Debug\net7.0\task1.genruntimeconfig.cache
+E:\CS problem solving\c#pd_heba\first_use\Day18\task1\obj\Debug\net7.0\ref\task1.dll
