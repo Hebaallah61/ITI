@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../Git_Repo/ToDoList"
+		},
+		{
+			"path": "../../../Day2"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Day2"
+	}
+}
