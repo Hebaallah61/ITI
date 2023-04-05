@@ -1,0 +1,18 @@
+<h1>Users</h1>
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+    </tr>
+  </thead>
+  <tbody>
+    
+    <tr  *ngFor="let s of students"> 
+       
+      <td >{{s.name}}</td>
+      
+      <td *ngIf="+s.age <= 40 && +s.age>=20">{{s.age}}</td>
+    </tr>
+  </tbody>
+</table>

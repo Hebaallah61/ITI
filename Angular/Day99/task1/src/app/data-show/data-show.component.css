@@ -1,0 +1,26 @@
+
+
+h1{
+    background-color: rgb(10, 10, 10);
+    color: rgb(135, 199, 228);
+    text-align: center;
+    width: 20%;
+    margin: 20px auto; 
+    border-radius: 10px;
+  }
+  
+  table{
+    background-color: rgb(14, 15, 15);
+    color: rgb(135, 199, 228);
+    border: 1px solid black;
+    width: 20%;
+    text-align: center;
+    margin: 5px auto;
+    border-radius: 10px;
+  }
+  
+  tr,th,td{
+    border: 1px solid rgb(135, 199, 228);
+    border-radius: 10px;
+  }
+  
