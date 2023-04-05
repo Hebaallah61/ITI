@@ -1,0 +1,10 @@
+
+.component1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: antiquewhite;
+    margin: 20px;
+    padding: 20px;
+}
