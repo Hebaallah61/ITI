@@ -1,0 +1,31 @@
+
+    <form (ngSubmit)="alertfun()" [formGroup]="formValidation">
+    <div class="input-group mb-3">
+      <span class="input-group-text" id="basic-addon1">Username</span>
+      <input formControlName="name" type="text" class="form-control" placeholder="Heba" aria-label="Username" aria-describedby="basic-addon1">
+    </div>
+    <div *ngIf="!nameVal" class="text-warning">
+      Name Not Valid
+    </div>
+    
+    <div class="input-group mb-3">
+      <span class="input-group-text" id="basic-addon1">Age</span>
+      <input formControlName="age" type="number" class="form-control" placeholder="23" aria-label="Age" aria-describedby="basic-addon1">
+    </div>
+
+    <div *ngIf="!ageVal" class="text-warning">
+      Age Not Valid
+    </div>
+    
+    <div class="input-group mb-3">
+      <span class="input-group-text" id="basic-addon1">Email</span>
+      <input formControlName="email" type="text" class="form-control" placeholder="Hebag.com" aria-label="Email" aria-describedby="basic-addon1">
+    </div>
+
+    <div *ngIf="!emailVal" class="text-warning">
+      Email Not Valid
+    </div>
+
+    <button type="submit" class="btn btn-dark">Submit</button>
+    </form>
+  

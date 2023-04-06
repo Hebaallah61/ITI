@@ -1,0 +1,19 @@
+<table class="table table-dark table-hover mt-2" style="width: 1000px;">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Country</th>
+          </tr>
+    </thead>
+    <tbody>
+    <tr  *ngFor="let s of students"> 
+        
+        <td >{{s.name}}</td>
+        
+        <td >{{s.age}}</td>
+        <td >{{s.country}}</td>
+    </tr>
+    </tbody>
+
+ </table>
