@@ -1,0 +1,22 @@
+
+<div class="card">
+    <div class="card-body">
+        <div class="row">
+            <div class="col-6">
+                <p>Name: </p>
+                <p>Age: </p>
+                <p>Email: </p>
+                <p>Phone: </p>
+                <p>Courses: </p>
+            </div>
+            <div class="col-2">
+                <p>{{student.name}}</p>
+                <p > {{student.age}}</p>
+                <p >{{student.email}}</p>
+                <p >{{student.phone}}</p>
+                <p *ngFor="let c of student.course">{{c}}</p>
+                <p> <a routerLink="/student"><button>Back to table</button></a></p>
+            </div> 
+        </div>
+    </div>
+</div>

@@ -1,0 +1,23 @@
+<h2 class="text-danger">Are You Sure?</h2>
+<div class="card">
+    <div class="card-body">
+        <div class="row">
+            <div class="col-6">
+                <p>Name: </p>
+                <p>Age: </p>
+                <p>Email: </p>
+                <p>Phone: </p>
+                <p>Courses: </p>
+            </div>
+            <div class="col-2">
+                <p>{{student.name}}</p>
+                <p > {{student.age}}</p>
+                <p >{{student.email}}</p>
+                <p >{{student.phone}}</p>
+                <p *ngFor="let c of student.course">{{c}}</p>
+                <p> <a routerLink="/student"><button>Back to table</button></a></p>
+                <p> <button (click)="Delete()">Delete</button></p>
+            </div> 
+        </div>
+    </div>
+</div>

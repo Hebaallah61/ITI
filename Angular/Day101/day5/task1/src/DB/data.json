@@ -1,0 +1,52 @@
+{
+    "student": [
+      {
+        "id": 1,
+        "name": "Ahmed",
+        "age":22,
+        "email": "ahmed@gmail.com",
+        "phone": "01111111",
+        "course":["C102","C#156"]
+      },
+      {
+        "id": 2,
+        "name": "Aly",
+        "age":22,
+        "email": "aly@gmail.com",
+        "phone": "0222222222",
+        "course":["C102","C#156"]
+      },
+      {
+        "id": 3,
+        "name": "Sara",
+        "age":22,
+        "email": "sara@gmail.com",
+        "phone": "0333333333",
+        "course":["C102","C#156"]
+      },
+      {
+        "id": 4,
+        "name": "sama",
+        "age":22,
+        "email": "sama@gmail.com",
+        "phone": "0444444",
+        "course":["C102","C#156"]
+      },
+      {
+        "id": 5,
+        "name": "Haitham",
+        "age":22,
+        "email": "haitham@gmail.com",
+        "phone": "05555555",
+        "course":["C102","C#156"]
+      },
+      {
+        "id": 6,
+        "name": "KOKO",
+        "age":22,
+        "email": "koko@gmail.com",
+        "phone": "066666666",
+        "course":["C102","C#156"]
+      }
+    ]
+  }

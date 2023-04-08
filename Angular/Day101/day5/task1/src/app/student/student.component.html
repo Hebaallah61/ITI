@@ -1,0 +1,26 @@
+<table class="table table-hover text-light">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Age</th>
+            <th>Phone</th>
+            <th>Course</th>
+            <th>Update</th>
+            <th>Details</th>
+            <th>Delete</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let s of students">
+            <td>{{s.name}}</td>
+            <td>{{s.email}}</td>
+            <td>{{s.age}}</td>
+            <td>{{s.phone}}</td>
+            <td>{{s.course}}</td>
+            <td> <a routerLink="/student/{{s.id}}"><button>Details</button></a>  </td>
+            <td> <a routerLink="/update/{{s.id}}"><button>Update</button></a> </td>
+            <td> <a routerLink="/delete/{{s.id}}"><button >Delete</button></a> </td>
+        </tr>
+    </tbody>
+</table>
