@@ -1,0 +1,134 @@
+﻿@model task1.Models.Product
+
+
+
+@{
+    ViewData["Title"] = "Details";
+
+}
+
+<h1>Details</h1>
+
+
+<div class="row">
+  <div class="col-sm-4">
+    <div class="card"  style="width: 25rem;">
+      <div class="card-body" style="background-color:rgb(10, 93, 113)">
+        <h5 class="card-title">  <img class="card-img-top" src="~/img/@Model.Img"/></h5>
+      
+      </div>
+    </div>
+  </div>
+
+   <div class="col-sm-4">
+       <div class="row">
+                
+            
+                 <div class="form-group" style="background-color:rgb(59, 165, 190)">
+                    <h4 style="text-align:center">Add a comment</h4>
+                    <label for="comment-text">User:</label>
+                    <input type="text" class="form-control" id="comment-user" name="comment-user">
+                </div>
+                <div class="form-group" style="background-color:rgb(59, 165, 190)">
+                    <label for="comment-text">Add Comment:</label>
+                    <input type="text" class="form-control" id="comment-text" name="comment-text">
+                <div style="text-align:center">
+                
+                <button  class="btn btn-primary m-3" onclick="sendcomment()">Submit</button>
+                
+                </div>
+     
+                </div>
+                   
+       </div>
+       <div class="row mt-2">
+<br />
+       
+    <div class="card" style="background-color:rgb(59, 165, 190)" >
+      <div class="card-body " style="background-color:rgb(59, 165, 190)">
+                <h5 class="card-title">Comments </h5>
+              @if (Model.Comments != null && Model.Comments.Count > 0)
+            {
+                <ul id="h">
+                    @foreach (var comment in Model.Comments)
+                    {
+                        <li>@Html.DisplayFor(c => comment.text)</li>
+                    }
+                </ul>
+            }
+            else
+            {
+                <p>No comments available</p>
+            }
+
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <div class="col-sm-4">
+    <div class="card " style="background-color:rgb(59, 165, 190)">
+      <div class="card-body">
+     <h5 class="card-body"> @Html.DisplayNameFor(model => model.Name) :  @Html.DisplayFor(model => model.Name)</h5>
+     <h5 class="card-body">@Html.DisplayNameFor(model => model.Description):   @Html.DisplayFor(model => model.Description)</h5>
+    <h5 class="card-body">@Html.DisplayNameFor(model => model.Price) : @Html.DisplayFor(model => model.Price)</h5>
+    <h5 class="card-body d-flex">@Html.DisplayNameFor(model => model.quentity) :<span> <h5 id="quan">@Html.DisplayFor(model => model.quentity)</h5></span></h5>
+     <button class="btn btn-primary " onclick="sendBuy()">Buy</button>      
+</div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
+
+
+
+        @section Scripts{
+        <script src="~/lib/microsoft-signalr\signalr.js"></script>
+
+        <script>
+        var connection1=new signalR.HubConnectionBuilder().withUrl("/Comments").build();
+        connection1.start().then(function(){
+            console.log("OK1");
+        });
+
+        function sendcomment(){
+            var id= @Model.Id;
+            var username=document.getElementById("comment-user").value;
+            var usercomment=document.getElementById("comment-text").value;
+            console.log( id );
+            connection1.invoke("NewComment",username,usercomment,id);
+        }
+
+        connection1.on("NotifyAll",function(n,m,id){
+             if(id==@Model.Id){
+                document.getElementById("h").innerHTML+="<li>" + n +":"+ m +"</li>";
+             }
+        });
+
+        var connection=new signalR.HubConnectionBuilder().withUrl("/Buy").build();
+        connection.start().then(function(){
+            console.log("OK2");
+        });
+        function sendBuy(){
+
+            var id= @Model.Id;
+            var quantity=@Model.quentity;
+            connection.invoke("NewBuy",id,quantity);
+            
+        }
+         connection.on("NotifyAllquantity",function(n,m){
+             if(n==@Model.Id){
+                 
+                   document.getElementById("quan").innerHTML=m;
+             }
+        });
+
+        </script>
+        }
