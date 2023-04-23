@@ -1,0 +1,14 @@
+E:\CS problem solving\c#pd_heba\APIV2\Day2\Tickets.DAL\bin\Debug\net7.0\Tickets.DAL.deps.json
+E:\CS problem solving\c#pd_heba\APIV2\Day2\Tickets.DAL\bin\Debug\net7.0\Tickets.DAL.runtimeconfig.json
+E:\CS problem solving\c#pd_heba\APIV2\Day2\Tickets.DAL\bin\Debug\net7.0\Tickets.DAL.dll
+E:\CS problem solving\c#pd_heba\APIV2\Day2\Tickets.DAL\bin\Debug\net7.0\Tickets.DAL.pdb
+E:\CS problem solving\c#pd_heba\APIV2\Day2\Tickets.DAL\obj\Debug\net7.0\Tickets.DAL.csproj.AssemblyReference.cache
+E:\CS problem solving\c#pd_heba\APIV2\Day2\Tickets.DAL\obj\Debug\net7.0\Tickets.DAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\CS problem solving\c#pd_heba\APIV2\Day2\Tickets.DAL\obj\Debug\net7.0\Tickets.DAL.AssemblyInfoInputs.cache
+E:\CS problem solving\c#pd_heba\APIV2\Day2\Tickets.DAL\obj\Debug\net7.0\Tickets.DAL.AssemblyInfo.cs
+E:\CS problem solving\c#pd_heba\APIV2\Day2\Tickets.DAL\obj\Debug\net7.0\Tickets.DAL.csproj.CoreCompileInputs.cache
+E:\CS problem solving\c#pd_heba\APIV2\Day2\Tickets.DAL\obj\Debug\net7.0\Tickets.DAL.dll
+E:\CS problem solving\c#pd_heba\APIV2\Day2\Tickets.DAL\obj\Debug\net7.0\refint\Tickets.DAL.dll
+E:\CS problem solving\c#pd_heba\APIV2\Day2\Tickets.DAL\obj\Debug\net7.0\Tickets.DAL.pdb
+E:\CS problem solving\c#pd_heba\APIV2\Day2\Tickets.DAL\obj\Debug\net7.0\Tickets.DAL.genruntimeconfig.cache
+E:\CS problem solving\c#pd_heba\APIV2\Day2\Tickets.DAL\obj\Debug\net7.0\ref\Tickets.DAL.dll

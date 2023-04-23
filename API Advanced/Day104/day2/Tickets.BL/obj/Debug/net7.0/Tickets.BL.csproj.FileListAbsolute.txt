@@ -1,0 +1,15 @@
+E:\CS problem solving\c#pd_heba\APIV2\Day2\Tickets.BL\bin\Debug\net7.0\Tickets.BL.deps.json
+E:\CS problem solving\c#pd_heba\APIV2\Day2\Tickets.BL\bin\Debug\net7.0\Tickets.BL.dll
+E:\CS problem solving\c#pd_heba\APIV2\Day2\Tickets.BL\bin\Debug\net7.0\Tickets.BL.pdb
+E:\CS problem solving\c#pd_heba\APIV2\Day2\Tickets.BL\bin\Debug\net7.0\Tickets.DAL.dll
+E:\CS problem solving\c#pd_heba\APIV2\Day2\Tickets.BL\bin\Debug\net7.0\Tickets.DAL.pdb
+E:\CS problem solving\c#pd_heba\APIV2\Day2\Tickets.BL\obj\Debug\net7.0\Tickets.BL.csproj.AssemblyReference.cache
+E:\CS problem solving\c#pd_heba\APIV2\Day2\Tickets.BL\obj\Debug\net7.0\Tickets.BL.GeneratedMSBuildEditorConfig.editorconfig
+E:\CS problem solving\c#pd_heba\APIV2\Day2\Tickets.BL\obj\Debug\net7.0\Tickets.BL.AssemblyInfoInputs.cache
+E:\CS problem solving\c#pd_heba\APIV2\Day2\Tickets.BL\obj\Debug\net7.0\Tickets.BL.AssemblyInfo.cs
+E:\CS problem solving\c#pd_heba\APIV2\Day2\Tickets.BL\obj\Debug\net7.0\Tickets.BL.csproj.CoreCompileInputs.cache
+E:\CS problem solving\c#pd_heba\APIV2\Day2\Tickets.BL\obj\Debug\net7.0\Tickets.BL.csproj.CopyComplete
+E:\CS problem solving\c#pd_heba\APIV2\Day2\Tickets.BL\obj\Debug\net7.0\Tickets.BL.dll
+E:\CS problem solving\c#pd_heba\APIV2\Day2\Tickets.BL\obj\Debug\net7.0\refint\Tickets.BL.dll
+E:\CS problem solving\c#pd_heba\APIV2\Day2\Tickets.BL\obj\Debug\net7.0\Tickets.BL.pdb
+E:\CS problem solving\c#pd_heba\APIV2\Day2\Tickets.BL\obj\Debug\net7.0\ref\Tickets.BL.dll

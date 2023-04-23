@@ -1,0 +1,225 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\CS problem solving\\c#pd_heba\\APIV2\\Day2\\Tickets.API\\Tickets.API.csproj": {}
+  },
+  "projects": {
+    "E:\\CS problem solving\\c#pd_heba\\APIV2\\Day2\\Tickets.API\\Tickets.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\CS problem solving\\c#pd_heba\\APIV2\\Day2\\Tickets.API\\Tickets.API.csproj",
+        "projectName": "Tickets.API",
+        "projectPath": "E:\\CS problem solving\\c#pd_heba\\APIV2\\Day2\\Tickets.API\\Tickets.API.csproj",
+        "packagesPath": "C:\\Users\\game\\.nuget\\packages\\",
+        "outputPath": "E:\\CS problem solving\\c#pd_heba\\APIV2\\Day2\\Tickets.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\game\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "E:\\CS problem solving\\c#pd_heba\\APIV2\\Day2\\Tickets.BL\\Tickets.BL.csproj": {
+                "projectPath": "E:\\CS problem solving\\c#pd_heba\\APIV2\\Day2\\Tickets.BL\\Tickets.BL.csproj"
+              },
+              "E:\\CS problem solving\\c#pd_heba\\APIV2\\Day2\\Tickets.DAL\\Tickets.DAL.csproj": {
+                "projectPath": "E:\\CS problem solving\\c#pd_heba\\APIV2\\Day2\\Tickets.DAL\\Tickets.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\CS problem solving\\c#pd_heba\\APIV2\\Day2\\Tickets.BL\\Tickets.BL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\CS problem solving\\c#pd_heba\\APIV2\\Day2\\Tickets.BL\\Tickets.BL.csproj",
+        "projectName": "Tickets.BL",
+        "projectPath": "E:\\CS problem solving\\c#pd_heba\\APIV2\\Day2\\Tickets.BL\\Tickets.BL.csproj",
+        "packagesPath": "C:\\Users\\game\\.nuget\\packages\\",
+        "outputPath": "E:\\CS problem solving\\c#pd_heba\\APIV2\\Day2\\Tickets.BL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\game\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "E:\\CS problem solving\\c#pd_heba\\APIV2\\Day2\\Tickets.DAL\\Tickets.DAL.csproj": {
+                "projectPath": "E:\\CS problem solving\\c#pd_heba\\APIV2\\Day2\\Tickets.DAL\\Tickets.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\CS problem solving\\c#pd_heba\\APIV2\\Day2\\Tickets.DAL\\Tickets.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\CS problem solving\\c#pd_heba\\APIV2\\Day2\\Tickets.DAL\\Tickets.DAL.csproj",
+        "projectName": "Tickets.DAL",
+        "projectPath": "E:\\CS problem solving\\c#pd_heba\\APIV2\\Day2\\Tickets.DAL\\Tickets.DAL.csproj",
+        "packagesPath": "C:\\Users\\game\\.nuget\\packages\\",
+        "outputPath": "E:\\CS problem solving\\c#pd_heba\\APIV2\\Day2\\Tickets.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\game\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
