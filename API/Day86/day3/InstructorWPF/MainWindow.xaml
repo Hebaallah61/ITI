@@ -1,0 +1,130 @@
+﻿<Window x:Class="InstructorWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:InstructorWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="445" Width="800">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Black"/>
+                <GradientStop Color="#FF45B7A6" Offset="0.313"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="179*"/>
+            <ColumnDefinition Width="74*"/>
+            <ColumnDefinition Width="147*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Margin="0,0,91,0" Width="NaN" Grid.ColumnSpan="2">
+            <Label Content="INSTRUCTORS" Height="33">
+                <Label.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="Black"/>
+                        <GradientStop Color="#FF8DCFCD" Offset="0.316"/>
+                    </LinearGradientBrush>
+                </Label.Background>
+            </Label>
+            <DataGrid Name="getall" Height="123" d:ItemsSource="{d:SampleData ItemCount=5}" Width="391" Margin="5,0,5,5" SelectionChanged="DataGrid_SelectionChanged" CellEditEnding="getall_CellEditEnding" >
+                <DataGrid.BorderBrush>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="Black"/>
+                        <GradientStop Color="White" Offset="1"/>
+                    </LinearGradientBrush>
+                </DataGrid.BorderBrush>
+            </DataGrid>
+            <Border BorderBrush="Black" BorderThickness="1" Height="270">
+                <Border.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="Black"/>
+                        <GradientStop Color="#FFC2ECF1" Offset="0.054"/>
+                    </LinearGradientBrush>
+                </Border.Background>
+                <GroupBox Header="Insructor Data&#xD;&#xA;" Height="NaN" Margin="0,9,0,0">
+                    <GroupBox.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="Black"/>
+                            <GradientStop Color="#FF7FB7B1" Offset="0.092"/>
+                        </LinearGradientBrush>
+                    </GroupBox.Background>
+                    <WrapPanel Margin="0,0,29,0" Width="NaN" Height="249">
+                        <Label Content="Name" Width="49"/>
+                        <TextBox x:Name="name" TextWrapping="Wrap" Text="Heba" Width="99" Height="21"/>
+                        <Label Content="Email" Width="65"/>
+                        <TextBox Name="email" TextWrapping="Wrap" Text="Heba@gmail.com" Width="117" Height="21"/>
+                        <Label Content="Phone" Width="49"/>
+                        <TextBox Name="phone" TextWrapping="Wrap" Text="011546" Width="99" Height="21"/>
+                        <Label Content="SSN" Width="65"/>
+                        <TextBox Name="ssn" TextWrapping="Wrap" Text="1111" Width="117" Height="21"/>
+                        <Label Content="Age" Width="49"/>
+                        <TextBox Name="age" TextWrapping="Wrap" Text="20" Width="99" Height="21"/>
+                        <Label Content="Address" Width="65"/>
+                        <TextBox Name="address" TextWrapping="Wrap" Text="Cairo" Width="117" Height="21"/>
+                        <Label Content="DOB" Width="49"/>
+                        <TextBox Name="dob" TextWrapping="Wrap" Text="20/11/2020" Width="99" Height="21"/>
+                        <Label Content="Salary" Width="65"/>
+                        <TextBox Name="salary" TextWrapping="Wrap" Text="5000" Width="117" Height="21"/>
+                        <Label Content="Id" Width="49"/>
+                        <TextBox Name="id" TextWrapping="Wrap" Text="1" Width="99" Height="21"/>
+                        <Label Content="Password" Width="65"/>
+                        <TextBox Name="pass" TextWrapping="Wrap" Text="123456" Width="117" Height="21"/>
+                        <Label Content="Department" Width="98"/>
+                        <ComboBox Name="dep" Width="139"/>
+                        <Button Name="add" Content="ADD" Width="88" Height="32" Click="add_Click" Margin="80,20,0,0" >
+                            <Button.Background>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="Black"/>
+                                    <GradientStop Color="#FFABEEE9" Offset="0.415"/>
+                                </LinearGradientBrush>
+                            </Button.Background>
+                        </Button>
+                        <Button Name="delete" Content="Delete" Width="88" Height="32"  Margin="80,20,0,0" Click="delete_Click" >
+                            <Button.Background>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="Black"/>
+                                    <GradientStop Color="#FFA0E8DE" Offset="0.437"/>
+                                </LinearGradientBrush>
+                            </Button.Background>
+                        </Button>
+                    </WrapPanel>
+                </GroupBox>
+            </Border>
+        </StackPanel>
+        <StackPanel Width="NaN" Grid.ColumnSpan="2" Margin="62,0,5,5" Height="NaN" Grid.Column="1">
+            <StackPanel.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="1"/>
+                    <GradientStop Color="#FF97C6C8" Offset="0.712"/>
+                </LinearGradientBrush>
+            </StackPanel.Background>
+            <Label Content="Get Instructor By ID" d:LayoutOverrides="Width, Height"/>
+            <TextBox Name="ids" TextWrapping="Wrap" Text="1" Width="358" Height="29"/>
+            <Label Content="Result" Height="30"/>
+            <DataGrid Name="search" Height="81" d:ItemsSource="{d:SampleData ItemCount=5}" SelectionChanged="search_SelectionChanged"/>
+            <Button Name="sbtn" Content="Search" Height="33" Click="Button_Click">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="Black"/>
+                        <GradientStop Color="#FF9ACACE" Offset="0.345"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Label Content="Get Instructor By Name" Height="30"/>
+            <TextBox x:Name="names" TextWrapping="Wrap" Text="Heba" Width="363" Height="29" TextChanged="TextBox_TextChanged"/>
+            <DataGrid Name="g2" Height="84" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+            <Button Name="searchname1" Content="Search" Height="36" Click="searchname1_Click">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="Black"/>
+                        <GradientStop Color="#FF7AB9BE" Offset="0.415"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+        </StackPanel>
+
+
+
+    </Grid>
+</Window>

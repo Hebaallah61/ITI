@@ -1,0 +1,26 @@
+﻿<Window x:Class="InstructorWPF.Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:InstructorWPF"
+        mc:Ignorable="d"
+        Title="Login" Height="447" Width="800">
+    <Grid Height="NaN" Margin="0,0,0,-39">
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Black"/>
+                <GradientStop Color="#FF9ED1DA" Offset="0.104"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Label Content="Email" Margin="198,123,512,276" Width="NaN" Height="NaN"/>
+        <TextBox TextWrapping="Wrap" Text="Heba@gmail.com" Margin="283,123,311,290" Width="NaN" TextChanged="TextBox_TextChanged" Name="email"/>
+        <Label Content="Password" Margin="198,191,537,217"/>
+        <Label Content="LOGIN" Margin="341,48,369,351" Width="NaN" Height="NaN"/>
+        <Label Content="You Don not Have Account?" Margin="400,324,207,75" Width="NaN" Height="NaN"/>
+        <Button Content="Register" HorizontalAlignment="Left" Margin="617,318,0,0" VerticalAlignment="Top" Width="111" Height="38" Click="Button_Click_1" Background="#FF82C5C8"/>
+        <Button Content="Login" HorizontalAlignment="Left" Margin="320,264,0,0" VerticalAlignment="Top" Width="111" Height="38" Click="Button_Click" Background="#FF90D6D9"/>
+        <PasswordBox Name="password" HorizontalAlignment="Left" Margin="283,199,0,0" VerticalAlignment="Top" Width="191" Password="123456" Height="36"/>
+
+    </Grid>
+</Window>
