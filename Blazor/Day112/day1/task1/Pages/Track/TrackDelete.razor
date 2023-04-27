@@ -1,0 +1,38 @@
+﻿@page "/TrackDelete/{Id:int}"
+<h3>Are You Sure?</h3>
+@code {
+    [Parameter]
+    public int Id { get; set; }
+
+    public SharedModel.Track? card { get; set; }
+
+    public bool Removed { get; set; } = false;
+
+    protected override async Task OnInitializedAsync()
+    {
+        card = LattieData.Tracks.FirstOrDefault(i => i.Id == Id);
+        await base.OnInitializedAsync();
+        Removed = false;
+    }
+
+    public async Task delet()
+    {
+        LattieData.Tracks.Remove(card);
+       
+        Removed = true;
+    }
+   
+}
+
+@if(!Removed)
+{
+    <form>
+        <button type="submit" class="btn btn-danger" @onclick="delet">Delete</button>
+    </form>
+}
+else
+{
+    <div class="alert-success">
+        Removed Successfully...
+    </div>
+}

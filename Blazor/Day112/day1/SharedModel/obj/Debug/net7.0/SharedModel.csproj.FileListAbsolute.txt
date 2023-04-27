@@ -1,0 +1,12 @@
+E:\CS problem solving\c#pd_heba\Blazor\Day1\SharedModel\bin\Debug\net7.0\SharedModel.deps.json
+E:\CS problem solving\c#pd_heba\Blazor\Day1\SharedModel\bin\Debug\net7.0\SharedModel.dll
+E:\CS problem solving\c#pd_heba\Blazor\Day1\SharedModel\bin\Debug\net7.0\SharedModel.pdb
+E:\CS problem solving\c#pd_heba\Blazor\Day1\SharedModel\obj\Debug\net7.0\SharedModel.csproj.AssemblyReference.cache
+E:\CS problem solving\c#pd_heba\Blazor\Day1\SharedModel\obj\Debug\net7.0\SharedModel.GeneratedMSBuildEditorConfig.editorconfig
+E:\CS problem solving\c#pd_heba\Blazor\Day1\SharedModel\obj\Debug\net7.0\SharedModel.AssemblyInfoInputs.cache
+E:\CS problem solving\c#pd_heba\Blazor\Day1\SharedModel\obj\Debug\net7.0\SharedModel.AssemblyInfo.cs
+E:\CS problem solving\c#pd_heba\Blazor\Day1\SharedModel\obj\Debug\net7.0\SharedModel.csproj.CoreCompileInputs.cache
+E:\CS problem solving\c#pd_heba\Blazor\Day1\SharedModel\obj\Debug\net7.0\SharedModel.dll
+E:\CS problem solving\c#pd_heba\Blazor\Day1\SharedModel\obj\Debug\net7.0\refint\SharedModel.dll
+E:\CS problem solving\c#pd_heba\Blazor\Day1\SharedModel\obj\Debug\net7.0\SharedModel.pdb
+E:\CS problem solving\c#pd_heba\Blazor\Day1\SharedModel\obj\Debug\net7.0\ref\SharedModel.dll

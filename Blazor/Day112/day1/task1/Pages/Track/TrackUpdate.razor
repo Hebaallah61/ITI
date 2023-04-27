@@ -1,0 +1,80 @@
+﻿<h3>TrackUpdate</h3>
+@page "/TrackUpdate/{id:int}"
+@code {
+    [Parameter]
+    public int Id { get; set; }
+
+    public SharedModel.Track? card { get; set; }
+
+    public bool Saved { get; set; } = false;
+
+    protected override async Task OnInitializedAsync()
+    {
+        Saved = false;
+
+        card = LattieData.Tracks.FirstOrDefault(t => t.Id == Id);
+
+        await base.OnInitializedAsync();
+    }
+
+    protected void HandleValidSubmit()
+    {
+        var EditedTrack = LattieData.Tracks.FirstOrDefault(t => t.Id == Id);
+        EditedTrack.Name = card?.Name;
+        EditedTrack.Description = card.Description;
+        
+
+
+        Saved = true;
+    }
+
+    protected void HandleInvalidSubmit()
+    {
+        Saved = false;
+    }
+}
+
+
+@if(!Saved){
+
+
+<EditForm Model="@card" OnValidSubmit="@HandleValidSubmit" OnInvalidSubmit="@HandleInvalidSubmit">
+     <div class="input-group mb-3">
+    <span class="input-group-text" id="basic-addon1">Name</span>
+    <InputText type="text" class="form-control" @bind-Value="@card.Name" placeholder="Name" aria-label="Username" aria-describedby="basic-addon1"></InputText>
+    </div>
+
+    <div class="input-group mb-3">
+    <span class="input-group-text" id="basic-addon1">Description</span>
+    <InputText type="text" class="form-control" @bind-Value="@card.Description" placeholder="Email" aria-label="Username" aria-describedby="basic-addon1"></InputText>
+    </div>    
+    
+
+   
+
+    
+    <button type="submit" class="btn btn-primary">Save</button>
+</EditForm>
+
+} 
+else{
+<div class="alert-success">
+        Track Data Saved Successfully 
+</div>
+}
+
+@*
+  <h4>Trainees:</h4>
+        @if (card != null && card.Trainees.Count > 0)
+        {
+            <ul>
+                @foreach (var trainee in card.Trainees)
+                {
+                    <li>@trainee.Name</li>
+                }
+            </ul>
+        }
+        else
+        {
+            <p>No trainees found for this track.</p>
+        }*@

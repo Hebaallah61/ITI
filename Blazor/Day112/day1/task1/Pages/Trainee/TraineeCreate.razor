@@ -1,0 +1,104 @@
+﻿<h3>Trainee Create</h3>
+@page "/TraineeCreate"
+
+
+@if (!Saved)
+{
+    <EditForm Model="@card" OnValidSubmit="@HandleValidSubmit" OnInvalidSubmit="@HandleInvalidSubmit">
+    <DataAnnotationsValidator></DataAnnotationsValidator>
+
+    <ValidationSummary></ValidationSummary> 
+
+    <div class="input-group mb-3">
+    <span class="input-group-text" id="basic-addon1">Name</span>
+    <InputText type="text" class="form-control" @bind-Value="@card.Name" placeholder="Name" aria-label="Username" aria-describedby="basic-addon1"></InputText>
+    </div>
+
+    <div class="input-group mb-3">
+    <span class="input-group-text" id="basic-addon1">Email</span>
+    <InputText type="text" class="form-control" @bind-Value="@card.email" placeholder="Email" aria-label="Username" aria-describedby="basic-addon1"></InputText>
+    </div>
+    
+    <div class="input-group mb-3">
+    <span class="input-group-text" id="basic-addon1">Mobile</span>
+    <InputText type="text" class="form-control" @bind-Value="@card.MobileNo" placeholder="MobileNo" aria-label="Username" aria-describedby="basic-addon1"></InputText>
+       
+
+    </div>
+     <ValidationMessage For="@(() => card.MobileNo)" />
+    <div class="input-group mb-3">
+    <span class="input-group-text" id="basic-addon1">Birthdate</span>
+    <InputDate  class="form-control" @bind-Value="@card.Birthdate" placeholder="Birthdate" ></InputDate>
+    </div>
+    
+   
+
+    <div class="input-group mb-3">
+    <span class="input-group-text" id="basic-addon1">Gender</span>
+    <InputSelect id="gender" class="form-control" @bind-Value="@card.gender">
+        <option value="@(SharedModel.Gender.Male)">Male</option>
+        <option value="@(SharedModel.Gender.Female)">Female</option>
+    </InputSelect>  
+    
+    </div>
+<ValidationMessage For="@(() => card.gender)" />
+    <div class="input-group mb-3">
+    <span class="input-group-text" id="basic-addon1">IsGraduated</span>
+    <InputSelect id="isgraduated" class="form-control" @bind-Value="@card.IsGraduated">
+        <option value="@(SharedModel.Graduated.True)">true</option>
+        <option value="@(SharedModel.Graduated.False)">false</option>
+        
+    </InputSelect>
+    
+    </div>
+    <ValidationMessage For="@(() => card.IsGraduated)" />
+    
+    <div class="input-group mb-3">
+       <span class="input-group-text" id="basic-addon1">Track</span>
+        <InputSelect id="track" class="form-control" @bind-Value="@card.TrackId">
+            @foreach (var track in LattieData.Tracks)
+            {
+                <option value="@track.Id">@track.Name</option>
+            }
+        </InputSelect>
+    </div>  
+    
+    <button type="submit" class="btn btn-primary">Save</button>
+    </EditForm>
+}
+else
+{
+    <div class="alert-success">
+        Track Added Successfully
+    </div>
+}
+
+@code {
+    public SharedModel.Trainee card { get; set; } = new SharedModel.Trainee();
+
+    public bool Saved { get; set; } = false;
+
+    protected void HandleValidSubmit()
+    {
+        var newTrainee = new SharedModel.Trainee
+            {
+                Id = new Random().Next(),
+                Name = card.Name,
+                email = card.email,
+                TrackId = card.TrackId,
+                Birthdate=card.Birthdate,
+                gender=card.gender,
+                IsGraduated=card.IsGraduated,
+                MobileNo=card.MobileNo
+            };
+
+        LattieData.Trainees.Add(newTrainee);
+
+        Saved = true;
+    }
+
+    protected void HandleInvalidSubmit()
+    {
+        Saved = false;
+    }
+}

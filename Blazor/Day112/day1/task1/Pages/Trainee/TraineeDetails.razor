@@ -1,0 +1,29 @@
+﻿<h3>Trainee Details</h3>
+@page "/TraineeDetails/{Id:int}"
+
+
+<div class="row">
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Trainee Name: @card?.Name </h5>
+        <h5 class="card-title">Trainee Gender: @card?.gender </h5>
+        <h5 class="card-title">Trainee Email: @card?.email </h5>
+        <h5 class="card-title">Trainee Phone: @card?.MobileNo </h5>
+        <h5 class="card-title">Trainee Birthdate: @card?.Birthdate </h5>
+        <h5 class="card-title">Trainee IsGraduated: @card?.IsGraduated </h5>
+        
+        
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Make Some Changes</h5>
+        <a href="@($"TraineeDelete/{card?.Id}")" class="btn btn-outline-danger">Delete</a>
+        <a href="@($"TraineeUpdate/{card?.Id}")" class="btn btn-outline-warning">Update</a>
+      </div>
+    </div>
+  </div>
+</div>

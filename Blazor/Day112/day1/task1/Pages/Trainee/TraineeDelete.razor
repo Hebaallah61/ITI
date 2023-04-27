@@ -1,0 +1,40 @@
+﻿<h3>Trainee Delete</h3>
+@page "/TraineeDelete/{Id:int}"
+<h3>Are You Sure?</h3>
+@code {
+    [Parameter]
+    public int Id { get; set; }
+
+    public SharedModel.Trainee? card { get; set; }
+
+    public bool Removed { get; set; } = false;
+
+    protected override async Task OnInitializedAsync()
+    {
+        card = LattieData.Trainees.FirstOrDefault(i => i.Id == Id);
+        await base.OnInitializedAsync();
+        Removed = false;
+    }
+
+    public async Task delet()
+    {
+        LattieData.Trainees.Remove(card);
+       
+        Removed = true;
+    }
+   
+}
+
+@if(!Removed)
+{
+    <form>
+        <button type="submit" class="btn btn-danger" @onclick="delet">Delete</button>
+    </form>
+}
+else
+{
+    <div class="alert-success">
+        Removed Successfully...
+    </div>
+}
+

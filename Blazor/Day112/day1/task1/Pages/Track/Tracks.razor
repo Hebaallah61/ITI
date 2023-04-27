@@ -1,0 +1,40 @@
+﻿<h3>Tracks</h3>
+@page "/Tracks"
+
+@code {
+    
+}
+
+<a href="@("/TrackCreate")"><button class="btn-outline-dark m-2 rounded-3">New Track</button></a>
+<br />
+@if (LattieData.Tracks == null)
+{
+    <img src="img/NoData.jpg " width="500" height="500"  /> 
+}
+else{
+ <table class="table table-dark table-hover">
+     <thead>
+         <tr>
+             <th>ID</th>
+             <th>Name</th>
+             <th>Description</th>
+             <th>Update</th>
+             <th>Details</th>
+             <th>Delete</th>
+         </tr>
+     </thead>
+     <tbody>
+            @foreach(var item in LattieData.Tracks)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.Name</td>
+                    <td>@item.Description</td>
+                    <td><a href="@($"TrackDelete/{item.Id}")" class="btn btn-outline-danger">Delete</a></td>
+                    <td><a href="@($"TrackDetails/{item.Id}")" class="btn btn-outline-primary">Details</a></td>
+                    <td><a href="@($"TrackUpdate/{item.Id}")" class="btn btn-outline-warning">Update</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

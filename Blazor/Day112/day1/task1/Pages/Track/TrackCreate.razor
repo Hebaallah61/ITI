@@ -1,0 +1,59 @@
+﻿@page "/TrackCreate"
+
+
+<h3>Track Create</h3>
+
+@if (!Saved)
+{
+    <EditForm Model="@card" OnValidSubmit="@HandleValidSubmit" OnInvalidSubmit="@HandleInvalidSubmit">
+        <DataAnnotationsValidator></DataAnnotationsValidator>
+
+        <ValidationSummary></ValidationSummary>
+
+        <div class="input-group mb-3">
+            <span class="input-group-text">Name</span>
+            <InputText type="text" class="form-control" @bind-Value="@card.Name" placeholder="Name"></InputText>
+            
+        </div>
+        <ValidationMessage For="@(() => card.Name)" />
+        <div class="input-group mb-3">
+            <span class="input-group-text">Description</span>
+            <InputText type="text" class="form-control" @bind-Value="@card.Description" placeholder="Description"></InputText>
+        </div>
+        <ValidationMessage For="@(() => card.Description)" />
+
+        <button type="submit" class="btn btn-primary">Save</button>
+    </EditForm>
+}
+else
+{
+    <div class="alert-success">
+        Track Added Successfully
+    </div>
+}
+
+@code {
+    public SharedModel.Track card { get; set; } = new SharedModel.Track();
+
+    public bool Saved { get; set; } = false;
+
+    protected void HandleValidSubmit()
+    {
+        var newTrack = new SharedModel.Track
+        {
+            Id = new Random().Next(),
+            Name = card.Name,
+            Description = card.Description,
+            Trainees = new List<SharedModel.Trainee>()
+        };
+
+        LattieData.Tracks.Add(newTrack);
+
+        Saved = true;
+    }
+
+    protected void HandleInvalidSubmit()
+    {
+        Saved = false;
+    }
+}

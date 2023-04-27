@@ -1,0 +1,102 @@
+﻿<h3>TraineeUpdate</h3>
+@page "/TraineeUpdate/{id:int}"
+@code {
+    [Parameter]
+    public int Id { get; set; }
+
+    public SharedModel.Trainee? card { get; set; }
+
+    public bool Saved { get; set; } = false;
+
+    protected override async Task OnInitializedAsync()
+    {
+        Saved = false;
+
+        card = LattieData.Trainees.FirstOrDefault(t => t.Id == Id);
+
+        await base.OnInitializedAsync();
+    }
+
+    protected void HandleValidSubmit()
+    {
+        var EditedTrainee = LattieData.Trainees.FirstOrDefault(t => t.Id == Id);
+        EditedTrainee.email = card?.email;
+        EditedTrainee.gender = card.gender;
+        EditedTrainee.MobileNo = card.MobileNo;
+        EditedTrainee.Birthdate = card.Birthdate;
+        EditedTrainee.IsGraduated = card.IsGraduated;
+        EditedTrainee.Name = card.Name;
+        EditedTrainee.Track = card.Track;
+        Saved = true;
+    }
+
+    protected void HandleInvalidSubmit()
+    {
+        Saved = false;
+    }
+
+}
+
+@if(!Saved){
+
+
+<EditForm Model="@card" OnValidSubmit="@HandleValidSubmit" OnInvalidSubmit="@HandleInvalidSubmit">
+     <div class="input-group mb-3">
+    <span class="input-group-text" id="basic-addon1">Name</span>
+    <InputText type="text" class="form-control" @bind-Value="@card.Name" placeholder="Name" aria-label="Username" aria-describedby="basic-addon1"></InputText>
+    </div>
+
+    <div class="input-group mb-3">
+    <span class="input-group-text" id="basic-addon1">Email</span>
+    <InputText type="text" class="form-control" @bind-Value="@card.email" placeholder="Email" aria-label="Username" aria-describedby="basic-addon1"></InputText>
+    </div>
+    
+    <div class="input-group mb-3">
+    <span class="input-group-text" id="basic-addon1">Mobile</span>
+    <InputText type="text" class="form-control" @bind-Value="@card.MobileNo" placeholder="MobileNo" aria-label="Username" aria-describedby="basic-addon1"></InputText>
+    </div>
+    
+    <div class="input-group mb-3">
+    <span class="input-group-text" id="basic-addon1">Birthdate</span>
+    <InputDate  class="form-control" @bind-Value="@card.Birthdate" placeholder="Birthdate" ></InputDate>
+    </div>
+    
+   
+
+    <div class="input-group mb-3">
+    <span class="input-group-text" id="basic-addon1">Gender</span>
+    <InputSelect id="gender" class="form-control" @bind-Value="@card.gender">
+        <option value="@(SharedModel.Gender.Male)">Male</option>
+        <option value="@(SharedModel.Gender.Female)">Female</option>
+    </InputSelect>        
+    </div>
+
+    <div class="input-group mb-3">
+    <span class="input-group-text" id="basic-addon1">IsGraduated</span>
+    <InputSelect id="isgraduated" class="form-control" @bind-Value="@card.IsGraduated">
+        <option value="@(SharedModel.Graduated.True)">true</option>
+        <option value="@(SharedModel.Graduated.False)">false</option>
+        
+    </InputSelect>
+    </div>
+        
+    
+    <div class="input-group mb-3">
+       <span class="input-group-text" id="basic-addon1">Track</span>
+        <InputSelect id="track" class="form-control" @bind-Value="@card.TrackId">
+            @foreach (var track in LattieData.Tracks)
+            {
+                <option value="@track.Id">@track.Name</option>
+            }
+        </InputSelect>
+    </div>  
+    
+    <button type="submit" class="btn btn-primary">Save</button>
+</EditForm>
+
+} 
+else{
+<div class="alert-success">
+        Trainee Data Saved Successfully 
+</div>
+}

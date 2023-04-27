@@ -1,0 +1,100 @@
+﻿@page "/TraineeUpdate/{id:int}"
+@using task1.Services;
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+
+    public Trainee card { get; set; } = new Trainee();
+
+    public bool Saved { get; set; } = false;
+
+    [Inject]
+    public ITrainee TraineeDataService { get; set; }
+
+    [Inject]
+    public ITrack TrackDataService { get; set; }
+
+    public IEnumerable<Track> tracks { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        card = await TraineeDataService.GetTraineeDetails(Id);
+        tracks = await TrackDataService.GetAllTrack();
+    }
+
+    protected async Task HandleValidSubmit()
+    {
+        await TraineeDataService.UpdateTrainee(Id, card);
+
+        Saved = true;
+    }
+
+    protected void HandleInvalidSubmit()
+    {
+        Saved = false;
+    }
+}
+
+@if (!Saved)
+{
+    <h3>Edit Trainee</h3>
+
+    <EditForm Model="@card" OnValidSubmit="@HandleValidSubmit" OnInvalidSubmit="@HandleInvalidSubmit">
+     <div class="input-group mb-3">
+    <span class="input-group-text" id="basic-addon1">Name</span>
+    <InputText type="text" class="form-control" @bind-Value="@card.Name" placeholder="Name" aria-label="Username" aria-describedby="basic-addon1"></InputText>
+    </div>
+
+    <div class="input-group mb-3">
+    <span class="input-group-text" id="basic-addon1">Email</span>
+    <InputText type="text" class="form-control" @bind-Value="@card.email" placeholder="Email" aria-label="Username" aria-describedby="basic-addon1"></InputText>
+    </div>
+    
+    <div class="input-group mb-3">
+    <span class="input-group-text" id="basic-addon1">Mobile</span>
+    <InputText type="text" class="form-control" @bind-Value="@card.MobileNo" placeholder="MobileNo" aria-label="Username" aria-describedby="basic-addon1"></InputText>
+    </div>
+    
+    <div class="input-group mb-3">
+    <span class="input-group-text" id="basic-addon1">Birthdate</span>
+    <InputDate  class="form-control" @bind-Value="@card.Birthdate" placeholder="Birthdate" ></InputDate>
+    </div>
+    
+   
+
+    <div class="input-group mb-3">
+    <span class="input-group-text" id="basic-addon1">Gender</span>
+    <InputSelect id="gender" class="form-control" @bind-Value="@card.gender">
+        <option value="@(SharedModel.Gender.Male)">Male</option>
+        <option value="@(SharedModel.Gender.Female)">Female</option>
+    </InputSelect>        
+    </div>
+
+    <div class="input-group mb-3">
+    <span class="input-group-text" id="basic-addon1">IsGraduated</span>
+    <InputSelect id="isgraduated" class="form-control" @bind-Value="@card.IsGraduated">
+        <option value="@(SharedModel.Graduated.True)">true</option>
+        <option value="@(SharedModel.Graduated.False)">false</option>
+        
+    </InputSelect>
+    </div>
+        
+    
+    <div class="input-group mb-3">
+       <span class="input-group-text" id="basic-addon1">Track</span>
+        <InputSelect id="track" class="form-control" @bind-Value="@card.TrackId">
+            @foreach (var track in tracks)
+            {
+                <option value="@track.Id">@track.Name</option>
+            }
+        </InputSelect>
+    </div>  
+    
+    <button type="submit" class="btn btn-primary">Save</button>
+</EditForm>
+}
+else
+{
+    <h3>Trainee Updated</h3>
+}
