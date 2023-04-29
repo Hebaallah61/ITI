@@ -1,0 +1,11 @@
+Web,ASP.Net,60,1000,3,asp.net
+Programming,C Progamming,60,200,1,c progamming
+Programming,C#,80,600,1,c#
+Web,HTML,20,100,3,html
+Programming,Java,60,800,1,java
+Programming,OOP,80,300,1,oop
+DB,Oracle,50,900,2,oracle
+DB,SQL Server,60,500,2,sql server
+Operating System,Unix,50,400,4,unix
+Web,Web Service,20,700,3,web service
+Operating System,Win_XP,20,1100,4,win_xp
