@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "P7iG/15qX5Ul3jS5qz2weEwuDBi7LXhoSR7mKgoRdM+ez1U9wtyynOMBGEhe/vkOG7clLTJnyrwnvdsBHbT6WA==",
+  "success": true,
+  "projectFilePath": "E:\\CS problem solving\\c#pd_heba\\Blazor\\Day3\\RazorClassLibrary\\RazorClassLibrary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\game\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.4\\microsoft.aspnetcore.authorization.7.0.4.nupkg.sha512",
+    "C:\\Users\\game\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.4\\microsoft.aspnetcore.components.7.0.4.nupkg.sha512",
+    "C:\\Users\\game\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\7.0.4\\microsoft.aspnetcore.components.analyzers.7.0.4.nupkg.sha512",
+    "C:\\Users\\game\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\7.0.4\\microsoft.aspnetcore.components.forms.7.0.4.nupkg.sha512",
+    "C:\\Users\\game\\.nuget\\packages\\microsoft.aspnetcore.components.web\\7.0.4\\microsoft.aspnetcore.components.web.7.0.4.nupkg.sha512",
+    "C:\\Users\\game\\.nuget\\packages\\microsoft.aspnetcore.metadata\\7.0.4\\microsoft.aspnetcore.metadata.7.0.4.nupkg.sha512",
+    "C:\\Users\\game\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\game\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\game\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\game\\.nuget\\packages\\microsoft.extensions.options\\7.0.1\\microsoft.extensions.options.7.0.1.nupkg.sha512",
+    "C:\\Users\\game\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\game\\.nuget\\packages\\microsoft.jsinterop\\7.0.4\\microsoft.jsinterop.7.0.4.nupkg.sha512",
+    "C:\\Users\\game\\.nuget\\packages\\mudblazor\\6.2.2\\mudblazor.6.2.2.nupkg.sha512",
+    "C:\\Users\\game\\.nuget\\packages\\system.io.pipelines\\7.0.0\\system.io.pipelines.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1904,11 +1904,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\CS problem solving\\c#pd_heba\\Blazor\\Day2\\task1\\task1.csproj",
+      "projectUniqueName": "E:\\ITI_Days\\ITI\\Blazor\\Day113\\day2\\task1\\task1.csproj",
       "projectName": "task1",
-      "projectPath": "E:\\CS problem solving\\c#pd_heba\\Blazor\\Day2\\task1\\task1.csproj",
+      "projectPath": "E:\\ITI_Days\\ITI\\Blazor\\Day113\\day2\\task1\\task1.csproj",
       "packagesPath": "C:\\Users\\game\\.nuget\\packages\\",
-      "outputPath": "E:\\CS problem solving\\c#pd_heba\\Blazor\\Day2\\task1\\obj\\",
+      "outputPath": "E:\\ITI_Days\\ITI\\Blazor\\Day113\\day2\\task1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\game\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1925,8 +1925,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "E:\\CS problem solving\\c#pd_heba\\Blazor\\Day2\\SharedModel\\SharedModel.csproj": {
-              "projectPath": "E:\\CS problem solving\\c#pd_heba\\Blazor\\Day2\\SharedModel\\SharedModel.csproj"
+            "E:\\ITI_Days\\ITI\\Blazor\\Day113\\day2\\SharedModel\\SharedModel.csproj": {
+              "projectPath": "E:\\ITI_Days\\ITI\\Blazor\\Day113\\day2\\SharedModel\\SharedModel.csproj"
             }
           }
         }

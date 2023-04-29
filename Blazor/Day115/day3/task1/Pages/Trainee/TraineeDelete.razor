@@ -1,0 +1,40 @@
+﻿<h3>Trainee Delete</h3>
+@page "/TraineeDelete/{Id:int}"
+@using task1.Services;
+<h3>Are You Sure?</h3>
+@code {
+    [Parameter]
+    public int Id { get; set; }
+
+    public bool Removed { get; set; } = false;
+    [Inject]
+    public ITrainee traineeDataService { get; set; }
+    protected override async Task OnInitializedAsync()
+    {
+        
+        await base.OnInitializedAsync();
+        Removed = false;
+    }
+
+    public async Task delet()
+    {
+       traineeDataService.DeleteTrainee(Id);
+       
+        Removed = true;
+    }
+   
+}
+
+@if(!Removed)
+{
+    <form>
+        <button type="submit" class="btn btn-danger" @onclick="delet">Delete</button>
+    </form>
+}
+else
+{
+    <div class="alert-success">
+        Removed Successfully...
+    </div>
+}
+

@@ -1,0 +1,81 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\CS problem solving\\c#pd_heba\\Blazor\\Day3\\task1\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\task1.bundle.scp.css",
+      "PackagePath": "staticwebassets\\task1.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\CS problem solving\\c#pd_heba\\Blazor\\Day3\\task1\\wwwroot\\JS\\MyFunctions.js",
+      "PackagePath": "staticwebassets\\JS\\MyFunctions.js"
+    },
+    {
+      "Id": "E:\\CS problem solving\\c#pd_heba\\Blazor\\Day3\\task1\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\CS problem solving\\c#pd_heba\\Blazor\\Day3\\task1\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\CS problem solving\\c#pd_heba\\Blazor\\Day3\\task1\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "E:\\CS problem solving\\c#pd_heba\\Blazor\\Day3\\task1\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "E:\\CS problem solving\\c#pd_heba\\Blazor\\Day3\\task1\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "E:\\CS problem solving\\c#pd_heba\\Blazor\\Day3\\task1\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\CS problem solving\\c#pd_heba\\Blazor\\Day3\\task1\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "E:\\CS problem solving\\c#pd_heba\\Blazor\\Day3\\task1\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "E:\\CS problem solving\\c#pd_heba\\Blazor\\Day3\\task1\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "E:\\CS problem solving\\c#pd_heba\\Blazor\\Day3\\task1\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "E:\\CS problem solving\\c#pd_heba\\Blazor\\Day3\\task1\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "E:\\CS problem solving\\c#pd_heba\\Blazor\\Day3\\task1\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\CS problem solving\\c#pd_heba\\Blazor\\Day3\\task1\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.task1.props",
+      "PackagePath": "build\\task1.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.task1.props",
+      "PackagePath": "buildMultiTargeting\\task1.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.task1.props",
+      "PackagePath": "buildTransitive\\task1.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.task1.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

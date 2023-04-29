@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dLogIb2/xF7UBTqdHFuZVvU7+AIutYer82SAPnBv4sPM2tKv47kS+KYowFUa/fHcFroCTiwLJpdO1xynIQxz5w==",
+  "dgSpecHash": "iPvaTPJBHRXo89u09ci4QxJsauU/roaoO8Z5hI1CmAsiuNx6DrG1DH3qV0iYW5CVGh52bO3Sh02MwGa258sDRA==",
   "success": true,
-  "projectFilePath": "E:\\CS problem solving\\c#pd_heba\\Blazor\\Day2\\task1API\\task1API.csproj",
+  "projectFilePath": "E:\\ITI_Days\\ITI\\Blazor\\Day113\\day2\\task1API\\task1API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\game\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\game\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

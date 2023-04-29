@@ -1,0 +1,55 @@
+﻿<h3>Trainees</h3>
+@page "/Trainees"
+@using task1.Services;
+
+@code {
+
+    IEnumerable<SharedModel.Trainee>? AllTrainees;
+
+    [Inject]
+    public ITrainee? traineeDataService { get; set; }
+
+     protected override async Task OnInitializedAsync() => AllTrainees = (IEnumerable<SharedModel.Trainee>)await traineeDataService!.GetAllTrainee();
+}
+<a href="@("/TraineeCreate")"><button class="btn-outline-dark m-2 rounded-3">New Trainee</button></a>
+<br />
+
+@if(AllTrainees==null){
+   <img src="img/NoData.jpg " width="500" height="500"  /> 
+}
+else{
+    
+    <table class="table table-dark table-hover"  style="opacity: 0.8;">
+     <thead>
+         <tr>
+             <th>ID</th>
+             <th>Name</th>
+             <th>Gender</th>
+             <th>email</th>
+             <th>MobileNo</th>
+             <th>Birthdate</th>
+             <th>IsGraduated</th>
+             <th>Update</th>
+             <th>Details</th>
+             <th>Delete</th>
+         </tr>
+     </thead>
+     <tbody>
+            @foreach(var item in AllTrainees)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.Name</td>
+                    <td>@item.gender</td>
+                    <td>@item.email</td>
+                    <td>@item.MobileNo</td>
+                    <td>@item.Birthdate</td>
+                    <td>@item.IsGraduated</td>
+                    <td><a href="@($"TraineeDelete/{item.Id}")" class="btn btn-outline-danger">Delete</a></td>
+                    <td><a href="@($"TraineeDetails/{item.Id}")" class="btn btn-outline-primary">Details</a></td>
+                    <td><a href="@($"TraineeUpdate/{item.Id}")" class="btn btn-outline-warning">Update</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

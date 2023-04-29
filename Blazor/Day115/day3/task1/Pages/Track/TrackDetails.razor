@@ -1,0 +1,24 @@
+﻿<h3>Track Details</h3>
+@page "/TrackDetails/{Id:int}"
+
+<div class="row">
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Trainee Name: @card?.Name </h5>
+        <h5 class="card-title">Trainee Gender: @card?.Description </h5>
+        
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Make Some Changes</h5>
+        <a href="@($"TrackDelete/{card?.Id}")" class="btn btn-outline-danger">Delete</a>
+        <a href="@($"TrackUpdate/{card?.Id}")" class="btn btn-outline-warning"> Update</a>
+      </div>
+    </div>
+  </div>
+</div>
+

@@ -1,0 +1,76 @@
+﻿@page "/JSInterop"
+@attribute [Authorize]
+
+<PageTitle>JS Interop</PageTitle>
+
+<h1>JS Interop </h1>
+
+@inject IJSRuntime JsRuntime
+
+<button class="btn-outline-info m-5" @onclick="OnButtonClicked">Guess1</button>
+<button class="btn-outline-info m-5" @onclick="Check"> Guess2 </button>
+<button class="btn-outline-info m-5" onclick="NameAgainFun()">Guess3</button>
+
+@code {
+    
+
+    private async void OnButtonClicked()
+    {
+        await JsRuntime.InvokeVoidAsync("alert", "Hello from Calling javaScript function from C#");
+
+    }
+}
+
+
+
+<div>@msg</div>
+
+@code{
+    [Inject]
+    public IJSRuntime jsRuntime1 { get; set; }
+
+    public string msg { get; set; }
+    async Task Check()
+    {
+        bool confirmed = await jsRuntime1.InvokeAsync<bool>("confirm", "This is Call JS From BlazorCode");
+        if (confirmed)
+        {
+            msg = "OK";
+        }
+        else
+        {
+            msg = "Done";
+        }
+    }
+}
+
+
+@code
+{
+    //InfoGuess function defined in MYFunctions.js file
+    private async Task CallJSMethod()
+    {
+        await JsRuntime.InvokeVoidAsync("InfoGuess");
+    }
+}
+
+
+
+
+<div> Hello I AM <span id="NameID"></span> </div>
+@code
+{
+   [JSInvokable]
+    public static async Task<string> NameAgain() 
+    {
+        try 
+        {
+            return await Task.FromResult("ITI User");
+        } 
+        catch (Exception ex) 
+        {
+            Console.Error.WriteLine(ex);
+            return null;
+        }
+    }
+}

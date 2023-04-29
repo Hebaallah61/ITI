@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9H3EZeNzPQHz1CQTPMACg+SCW7IJ4vu92+87+OjYnIaGkxHse9ROpM/3MWb0OCES/BnuuCiZ1yv9aIZD/rbZ7g==",
+  "dgSpecHash": "4jZVLhuavwJlV348Cxw5c7AyQGI6ttHTMsP18vGZ65aBGYI9hjRWIyZWCbmFIBYDB9KdnWSJdyWv5+awDIEB6Q==",
   "success": true,
-  "projectFilePath": "E:\\CS problem solving\\c#pd_heba\\Blazor\\Day2\\task1\\task1.csproj",
+  "projectFilePath": "E:\\ITI_Days\\ITI\\Blazor\\Day113\\day2\\task1\\task1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\game\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.4\\microsoft.aspnetcore.authorization.7.0.4.nupkg.sha512",
     "C:\\Users\\game\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.4\\microsoft.aspnetcore.components.7.0.4.nupkg.sha512",

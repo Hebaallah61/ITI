@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\CS problem solving\\c#pd_heba\\Blazor\\Day2\\SharedModel\\SharedModel.csproj",
+      "projectUniqueName": "E:\\ITI_Days\\ITI\\Blazor\\Day113\\day2\\SharedModel\\SharedModel.csproj",
       "projectName": "SharedModel",
-      "projectPath": "E:\\CS problem solving\\c#pd_heba\\Blazor\\Day2\\SharedModel\\SharedModel.csproj",
+      "projectPath": "E:\\ITI_Days\\ITI\\Blazor\\Day113\\day2\\SharedModel\\SharedModel.csproj",
       "packagesPath": "C:\\Users\\game\\.nuget\\packages\\",
-      "outputPath": "E:\\CS problem solving\\c#pd_heba\\Blazor\\Day2\\SharedModel\\obj\\",
+      "outputPath": "E:\\ITI_Days\\ITI\\Blazor\\Day113\\day2\\SharedModel\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\game\\AppData\\Roaming\\NuGet\\NuGet.Config",

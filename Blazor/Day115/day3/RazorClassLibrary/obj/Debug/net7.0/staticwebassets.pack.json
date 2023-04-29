@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\CS problem solving\\c#pd_heba\\Blazor\\Day3\\RazorClassLibrary\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\RazorClassLibrary.bundle.scp.css",
+      "PackagePath": "staticwebassets\\RazorClassLibrary.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\CS problem solving\\c#pd_heba\\Blazor\\Day3\\RazorClassLibrary\\wwwroot\\background.png",
+      "PackagePath": "staticwebassets\\background.png"
+    },
+    {
+      "Id": "E:\\CS problem solving\\c#pd_heba\\Blazor\\Day3\\RazorClassLibrary\\wwwroot\\exampleJsInterop.js",
+      "PackagePath": "staticwebassets\\exampleJsInterop.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.RazorClassLibrary.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.RazorClassLibrary.props",
+      "PackagePath": "build\\RazorClassLibrary.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.RazorClassLibrary.props",
+      "PackagePath": "buildMultiTargeting\\RazorClassLibrary.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.RazorClassLibrary.props",
+      "PackagePath": "buildTransitive\\RazorClassLibrary.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
